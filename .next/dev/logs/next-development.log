@@ -1,2 +1,725 @@
 [00:00:00.722] Server  LOG      ✓ Ready in 500ms
 [00:00:09.383] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:31.368] Browser ERROR   ./app/layout.tsx:21:8
+Parsing ecmascript source code failed
+  19 |       <body className={inter.className}>
+  20 |       <Na  
+> 21 |       {children}</body>
+     |        ^^^^^^^^
+  22 |     </html>
+  23 |   )
+  24 | }
+
+Expected '</', got 'children'
+[00:11:33.721] Browser ERROR   ./app/layout.tsx:21:8
+Parsing ecmascript source code failed
+  19 |       <body className={inter.className}>
+  20 |       <Nav  
+> 21 |       {children}</body>
+     |        ^^^^^^^^
+  22 |     </html>
+  23 |   )
+  24 | }
+
+Expected '</', got 'children'
+[00:11:37.704] Browser ERROR   ./app/layout.tsx:22:8
+Parsing ecmascript source code failed
+  20 |       <body className={inter.className}>
+  21 |       <NavBar  
+> 22 |       {children}</body>
+     |        ^^^^^^^^
+  23 |     </html>
+  24 |   )
+  25 | }
+
+Expected '</', got 'children'
+[00:11:39.512] Server  LOG      ✓ Compiled in 126ms
+[00:12:46.088] Server  LOG      ✓ Compiled in 20ms
+[00:12:49.718] Server  LOG      ✓ Compiled in 14ms
+[00:12:54.816] Server  LOG      ✓ Compiled in 47ms
+[00:12:56.726] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:57.752] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:34.804] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:46.390] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:46.973] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:47.498] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:47.917] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:49.768] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:01.657] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:02.223] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:20.813] Server  LOG      ✓ Compiled in 41ms
+[00:14:20.953] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:30.763] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:31.323] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:31.909] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:32.506] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:41.455] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:41.953] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:52.531] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:14.784] Server  LOG      ✓ Compiled in 20ms
+[00:15:16.023] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:16.772] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:01.166] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:18.848] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:19.860] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:29.660] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:31.211] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:23.164] Server  LOG      ✓ Compiled in 427ms
+[00:18:07.522] Browser ERROR   ./app/NavBar.tsx:4:1
+Parsing ecmascript source code failed
+  2 | import React from 'react'
+  3 | import 
+> 4 | const NavBar = () => {
+    | ^^^^^
+  5 |   return (
+  6 | 	<nav className='flex space-x-6 border-b mb-5 px-5 h-14 items-center'>
+  7 | 		<Link href="/">Logo</Link>
+
+Expected 'from', got 'const'
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+[00:18:09.150] Browser ERROR   ./app/NavBar.tsx:4:1
+Parsing ecmascript source code failed
+  2 | import React from 'react'
+  3 | import {}
+> 4 | const NavBar = () => {
+    | ^^^^^
+  5 |   return (
+  6 | 	<nav className='flex space-x-6 border-b mb-5 px-5 h-14 items-center'>
+  7 | 		<Link href="/">Logo</Link>
+
+Expected 'from', got 'const'
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+[00:18:12.061] Browser ERROR   ./app/NavBar.tsx:4:1
+Parsing ecmascript source code failed
+  2 | import React from 'react'
+  3 | import {AirF}
+> 4 | const NavBar = () => {
+    | ^^^^^
+  5 |   return (
+  6 | 	<nav className='flex space-x-6 border-b mb-5 px-5 h-14 items-center'>
+  7 | 		<Link href="/">Logo</Link>
+
+Expected 'from', got 'const'
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+[00:18:21.900] Browser ERROR   ./app/NavBar.tsx:4:1
+Parsing ecmascript source code failed
+  2 | import React from 'react'
+  3 | import {AirFillB}
+> 4 | const NavBar = () => {
+    | ^^^^^
+  5 |   return (
+  6 | 	<nav className='flex space-x-6 border-b mb-5 px-5 h-14 items-center'>
+  7 | 		<Link href="/">Logo</Link>
+
+Expected 'from', got 'const'
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+[00:18:24.262] Browser ERROR   ./app/NavBar.tsx:4:1
+Parsing ecmascript source code failed
+  2 | import React from 'react'
+  3 | import {AirFillBug}
+> 4 | const NavBar = () => {
+    | ^^^^^
+  5 |   return (
+  6 | 	<nav className='flex space-x-6 border-b mb-5 px-5 h-14 items-center'>
+  7 | 		<Link href="/">Logo</Link>
+
+Expected 'from', got 'const'
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+[00:18:32.982] Browser ERROR   ./app/NavBar.tsx:3:20
+Parsing ecmascript source code failed
+  1 | import Link from 'next/link'
+  2 | import React from 'react'
+> 3 | import {AirFillBug '
+    |                    ^
+  4 | const NavBar = () => {
+  5 |   return (
+  6 | 	<nav className='flex space-x-6 border-b mb-5 px-5 h-14 items-center'>
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+[00:19:19.508] Browser ERROR   ./app/NavBar.tsx:7:19
+Parsing ecmascript source code failed
+   5 |   return (
+   6 | 	<nav className='flex space-x-6 border-b mb-5 px-5 h-14 items-center'>
+>  7 | 		<Link href="/"><</Link>
+     | 		                ^
+   8 | 		<ul className='flex space-x-6'>
+   9 | 			<li><Link href="/">Dashboard</Link></li>
+  10 | 			<li><Link href="/">Issues</Link></li>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+[00:19:19.508] Browser ERROR   ./app/NavBar.tsx:7:20
+Parsing ecmascript source code failed
+   5 |   return (
+   6 | 	<nav className='flex space-x-6 border-b mb-5 px-5 h-14 items-center'>
+>  7 | 		<Link href="/"><</Link>
+     | 		                 ^^^^^^
+   8 | 		<ul className='flex space-x-6'>
+   9 | 			<li><Link href="/">Dashboard</Link></li>
+  10 | 			<li><Link href="/">Issues</Link></li>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+[00:19:21.994] Browser ERROR   ./app/NavBar.tsx:7:21
+Parsing ecmascript source code failed
+   5 |   return (
+   6 | 	<nav className='flex space-x-6 border-b mb-5 px-5 h-14 items-center'>
+>  7 | 		<Link href="/"></></></Link>
+     | 		                  ^
+   8 | 		<ul className='flex space-x-6'>
+   9 | 			<li><Link href="/">Dashboard</Link></li>
+  10 | 			<li><Link href="/">Issues</Link></li>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+[00:19:21.994] Browser ERROR   ./app/NavBar.tsx:7:22
+Parsing ecmascript source code failed
+   5 |   return (
+   6 | 	<nav className='flex space-x-6 border-b mb-5 px-5 h-14 items-center'>
+>  7 | 		<Link href="/"></></></Link>
+     | 		                   ^^^^^^^^
+   8 | 		<ul className='flex space-x-6'>
+   9 | 			<li><Link href="/">Dashboard</Link></li>
+  10 | 			<li><Link href="/">Issues</Link></li>
+
+Unknown regular expression flags.
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+[00:19:21.994] Browser ERROR   ./app/NavBar.tsx:12:3
+Parsing ecmascript source code failed
+  10 | 			<li><Link href="/">Issues</Link></li>
+  11 | 		</ul>
+> 12 | 	</nav>
+     | 	 ^^^^^
+  13 |   )
+  14 | }
+  15 |
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+[00:19:24.795] Browser ERROR   ./app/NavBar.tsx:7:25
+Parsing ecmascript source code failed
+   5 |   return (
+   6 | 	<nav className='flex space-x-6 border-b mb-5 px-5 h-14 items-center'>
+>  7 | 		<Link href="/"><A/></></Link>
+     | 		                      ^
+   8 | 		<ul className='flex space-x-6'>
+   9 | 			<li><Link href="/">Dashboard</Link></li>
+  10 | 			<li><Link href="/">Issues</Link></li>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+[00:19:24.795] Browser ERROR   ./app/NavBar.tsx:7:26
+Parsing ecmascript source code failed
+   5 |   return (
+   6 | 	<nav className='flex space-x-6 border-b mb-5 px-5 h-14 items-center'>
+>  7 | 		<Link href="/"><A/></></Link>
+     | 		                       ^^^^^^
+   8 | 		<ul className='flex space-x-6'>
+   9 | 			<li><Link href="/">Dashboard</Link></li>
+  10 | 			<li><Link href="/">Issues</Link></li>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+[00:19:25.830] Browser ERROR   ./app/NavBar.tsx:7:33
+Parsing ecmascript source code failed
+   5 |   return (
+   6 | 	<nav className='flex space-x-6 border-b mb-5 px-5 h-14 items-center'>
+>  7 | 		<Link href="/"><AiFillBug/></></Link>
+     | 		                              ^
+   8 | 		<ul className='flex space-x-6'>
+   9 | 			<li><Link href="/">Dashboard</Link></li>
+  10 | 			<li><Link href="/">Issues</Link></li>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+[00:19:25.830] Browser ERROR   ./app/NavBar.tsx:7:34
+Parsing ecmascript source code failed
+   5 |   return (
+   6 | 	<nav className='flex space-x-6 border-b mb-5 px-5 h-14 items-center'>
+>  7 | 		<Link href="/"><AiFillBug/></></Link>
+     | 		                               ^^^^^^
+   8 | 		<ul className='flex space-x-6'>
+   9 | 			<li><Link href="/">Dashboard</Link></li>
+  10 | 			<li><Link href="/">Issues</Link></li>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+[00:19:30.382] Server  ERROR    ⨯ ./app/NavBar.tsx:7:32
+Parsing ecmascript source code failed
+   5 |   return (
+   6 | 	<nav className='flex space-x-6 border-b mb-5 px-5 h-14 items-center'>
+>  7 | 		<Link href="/"><AiFillBug/></></Link>
+     | 		                             ^
+   8 | 		<ul className='flex space-x-6'>
+   9 | 			<li><Link href="/">Dashboard</Link></li>
+  10 | 			<li><Link href="/">Issues</Link></li>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+
+
+
+./app/NavBar.tsx:7:33
+Parsing ecmascript source code failed
+   5 |   return (
+   6 | 	<nav className='flex space-x-6 border-b mb-5 px-5 h-14 items-center'>
+>  7 | 		<Link href="/"><AiFillBug/></></Link>
+     | 		                              ^
+   8 | 		<ul className='flex space-x-6'>
+   9 | 			<li><Link href="/">Dashboard</Link></li>
+  10 | 			<li><Link href="/">Issues</Link></li>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+
+
+
+./app/NavBar.tsx:7:34
+Parsing ecmascript source code failed
+   5 |   return (
+   6 | 	<nav className='flex space-x-6 border-b mb-5 px-5 h-14 items-center'>
+>  7 | 		<Link href="/"><AiFillBug/></></Link>
+     | 		                               ^^^^^^
+   8 | 		<ul className='flex space-x-6'>
+   9 | 			<li><Link href="/">Dashboard</Link></li>
+  10 | 			<li><Link href="/">Issues</Link></li>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+
+
+[00:19:31.072] Browser ERROR   uncaughtError: Error: ./app/NavBar.tsx:7:33
+Parsing ecmascript source code failed
+   5 |   return (
+   6 | 	<nav className='flex space-x-6 border-b mb-5 px-5 h-14 items-center'>
+>  7 | 		<Link href="/"><AiFillBug/></></Link>
+     | 		                              ^
+   8 | 		<ul className='flex space-x-6'>
+   9 | 			<li><Link href="/">Dashboard</Link></li>
+  10 | 			<li><Link href="/">Issues</Link></li>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+
+
+[00:19:31.222] Browser ERROR   ./app/NavBar.tsx:7:33
+Parsing ecmascript source code failed
+   5 |   return (
+   6 | 	<nav className='flex space-x-6 border-b mb-5 px-5 h-14 items-center'>
+>  7 | 		<Link href="/"><AiFillBug/></></Link>
+     | 		                              ^
+   8 | 		<ul className='flex space-x-6'>
+   9 | 			<li><Link href="/">Dashboard</Link></li>
+  10 | 			<li><Link href="/">Issues</Link></li>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+[00:19:31.222] Browser ERROR   ./app/NavBar.tsx:7:34
+Parsing ecmascript source code failed
+   5 |   return (
+   6 | 	<nav className='flex space-x-6 border-b mb-5 px-5 h-14 items-center'>
+>  7 | 		<Link href="/"><AiFillBug/></></Link>
+     | 		                               ^^^^^^
+   8 | 		<ul className='flex space-x-6'>
+   9 | 			<li><Link href="/">Dashboard</Link></li>
+  10 | 			<li><Link href="/">Issues</Link></li>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+[00:19:31.222] Browser ERROR   ./app/NavBar.tsx:7:33
+Parsing ecmascript source code failed
+   5 |   return (
+   6 | 	<nav className='flex space-x-6 border-b mb-5 px-5 h-14 items-center'>
+>  7 | 		<Link href="/"><AiFillBug/></></Link>
+     | 		                              ^
+   8 | 		<ul className='flex space-x-6'>
+   9 | 			<li><Link href="/">Dashboard</Link></li>
+  10 | 			<li><Link href="/">Issues</Link></li>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+[00:19:31.222] Browser ERROR   ./app/NavBar.tsx:7:34
+Parsing ecmascript source code failed
+   5 |   return (
+   6 | 	<nav className='flex space-x-6 border-b mb-5 px-5 h-14 items-center'>
+>  7 | 		<Link href="/"><AiFillBug/></></Link>
+     | 		                               ^^^^^^
+   8 | 		<ul className='flex space-x-6'>
+   9 | 			<li><Link href="/">Dashboard</Link></li>
+  10 | 			<li><Link href="/">Issues</Link></li>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+[00:19:37.613] Server  LOG      ✓ Compiled in 203ms
+[00:19:37.972] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:38.155] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:56.004] Server  LOG      ✓ Compiled in 20ms
+[00:20:27.149] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:31.863] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:54.762] Server  LOG      ✓ Compiled in 26ms
+[00:20:58.657] Server  LOG      ✓ Compiled in 11ms
+[00:21:24.840] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:03.147] Browser ERROR   ./app/NavBar.tsx:6:3
+Parsing ecmascript source code failed
+  4 | const NavBar = () => {
+  5 | 	const
+> 6 |   return (
+    |   ^^^^^^
+  7 | 	<nav className='flex space-x-6 border-b mb-5 px-5 h-14 items-center'>
+  8 | 		<Link href="/"><AiFillBug/></Link>
+  9 | 		<ul className='flex space-x-6'>
+
+Expected ident
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+[00:24:05.531] Browser ERROR   ./app/NavBar.tsx:5:8
+Parsing ecmascript source code failed
+  3 | import { AiFillBug } from 'react-icons/ai'
+  4 | const NavBar = () => {
+> 5 | 	const links
+    | 	      ^^^^^
+  6 |   return (
+  7 | 	<nav className='flex space-x-6 border-b mb-5 px-5 h-14 items-center'>
+  8 | 		<Link href="/"><AiFillBug/></Link>
+
+'const' declarations must be initialized
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+[00:24:07.653] Server  LOG      ✓ Compiled in 47ms
+[00:24:13.793] Browser ERROR   ./app/NavBar.tsx:6:11
+Parsing ecmascript source code failed
+  4 | const NavBar = () => {
+  5 | 	const links = [
+> 6 | 		{label: }
+    | 		        ^
+  7 | 	]
+  8 |   return (
+  9 | 	<nav className='flex space-x-6 border-b mb-5 px-5 h-14 items-center'>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+[00:24:28.568] Browser ERROR   ./app/NavBar.tsx:6:30
+Parsing ecmascript source code failed
+  4 | const NavBar = () => {
+  5 | 	const links = [
+> 6 | 		{label: 'Dashboard, href: ''}
+    | 		                           ^^
+  7 | 	]
+  8 |   return (
+  9 | 	<nav className='flex space-x-6 border-b mb-5 px-5 h-14 items-center'>
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+[00:24:30.037] Browser ERROR   ./app/NavBar.tsx:6:31
+Parsing ecmascript source code failed
+  4 | const NavBar = () => {
+  5 | 	const links = [
+> 6 | 		{label: 'Dashboard, href: '/'}
+    | 		                            ^^
+  7 | 	]
+  8 |   return (
+  9 | 	<nav className='flex space-x-6 border-b mb-5 px-5 h-14 items-center'>
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+[00:24:41.859] Browser ERROR   ./app/NavBar.tsx:6:31
+Parsing ecmascript source code failed
+  4 | const NavBar = () => {
+  5 | 	const links = [
+> 6 | 		{label: 'Dashboard, href: '/'},
+    | 		                            ^^^
+  7 | 	]
+  8 |   return (
+  9 | 	<nav className='flex space-x-6 border-b mb-5 px-5 h-14 items-center'>
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+[00:24:56.664] Browser ERROR   ./app/NavBar.tsx:6:31
+Parsing ecmascript source code failed
+  4 | const NavBar = () => {
+  5 | 	const links = [
+> 6 | 		{label: 'Dashboard, href: '/'}
+    | 		                            ^^
+  7 | 	]
+  8 |   return (
+  9 | 	<nav className='flex space-x-6 border-b mb-5 px-5 h-14 items-center'>
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+[00:25:26.021] Browser ERROR   uncaughtError: Error: Objects are not valid as a React child (found: object with keys {label, href}). If you meant to render a collection of children, use an array instead.
+[00:25:28.784] Server  LOG      ✓ Compiled in 33ms
+[00:25:29.137] Server  ERROR    ⨯ Error: Functions are not valid as a child of Client Components. This may happen if you return map instead of <map /> from render. Or maybe you meant to call this function rather than return it.
+  <ul>{function map}{<li/>}{<li/>}</ul>
+      ^^^^^^^^^^^^^^
+[00:25:29.336] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:29.336] Browser ERROR   uncaughtError: Error: Functions are not valid as a child of Client Components. This may happen if you return map instead of <map /> from render. Or maybe you meant to call this function rather than return it.
+  <ul>{function map}{<li/>}{<li/>}</ul>
+      ^^^^^^^^^^^^^^
+[00:25:31.822] Server  LOG      ✓ Compiled in 22ms
+[00:25:31.919] Server  ERROR    ⨯ ReferenceError: link is not defined
+[00:25:32.098] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:32.098] Browser ERROR   uncaughtError: ReferenceError: link is not defined
+[00:25:34.948] Browser ERROR   ./app/NavBar.tsx:13:23
+Parsing ecmascript source code failed
+  11 | 		<Link href="/"><AiFillBug/></Link>
+  12 | 		<ul className='flex space-x-6'>
+> 13 | 			{links.map(link => )}
+     | 			                   ^
+  14 | 			<li><Link className='text-zink-500 hover:text-zinc-800 transition-colors' href="/">Dashboard</Link></li>
+  15 | 			<li><Link href="/">Issues</Link></li>
+  16 | 		</ul>
+
+Expected '</', got ')'
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+[00:25:53.671] Browser ERROR   ./app/NavBar.tsx:13:23
+Parsing ecmascript source code failed
+  11 | 		<Link href="/"><AiFillBug/></Link>
+  12 | 		<ul className='flex space-x-6'>
+> 13 | 			{links.map(link => )}
+     | 			                   ^
+  14 | 			<li></li>
+  15 | 			<li><Link href="/">Issues</Link></li>
+  16 | 		</ul>
+
+Expected '</', got ')'
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+[00:25:59.539] Server  LOG      ✓ Compiled in 10ms
+[00:25:59.656] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:25:59.828] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:13.308] Browser ERROR   ./app/NavBar.tsx:13:29
+Ecmascript file had an error
+  11 | 		<Link href="/"><AiFillBug/></Link>
+  12 | 		<ul className='flex space-x-6'>
+> 13 | 			{links.map(link => <Link key className='text-zink-500 hover:text-zinc-800 transition-colors' href="/">Dashboard</Link>)}
+     | 			                         ^^^
+  14 | 			<li></li>
+  15 | 			<li><Link href="/">Issues</Link></li>
+  16 | 		</ul>
+
+The value of property 'key' should not be empty
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+[00:26:19.916] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:26:20.056] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true ke ke true ke
+[00:26:21.832] Browser ERROR   ./app/NavBar.tsx:13:36
+Parsing ecmascript source code failed
+  11 | 		<Link href="/"><AiFillBug/></Link>
+  12 | 		<ul className='flex space-x-6'>
+> 13 | 			{links.map(link => <Link key={} className='text-zink-500 hover:text-zinc-800 transition-colors' href="/">Dashboard</Link>)}
+     | 			                                ^^^^^^^^^
+  14 | 			<li></li>
+  15 | 			<li><Link href="/">Issues</Link></li>
+  16 | 		</ul>
+
+Expected '</', got 'className'
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+[00:26:25.969] Server  LOG      ✓ Compiled in 13ms
+[00:27:23.611] Browser ERROR   uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.
+Open your browser's console to view the Component stack trace.
+[00:27:41.043] Server  LOG      ✓ Compiled in 27ms
+[00:27:41.336] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:46.895] Browser ERROR   ./app/NavBar.tsx:14:102
+Parsing ecmascript source code failed
+  12 | 		<ul className='flex space-x-6'>
+  13 | 			{links.map(link => 
+> 14 | 				<Link key={link.href} className='text-zink-500 hover:text-zinc-800 transition-colors' href={link.}>
+     | 				                                                                                                 ^
+  15 | 					Dashboard</Link>)}
+  16 |
+  17 | 		</ul>
+
+Expected '</', got '}'
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+[00:27:48.082] Server  LOG      ✓ Compiled in 30ms
+[00:27:53.546] Browser ERROR   ./app/NavBar.tsx:15:7
+Parsing ecmascript source code failed
+  13 | 			{links.map(link => 
+  14 | 				<Link key={link.href} className='text-zink-500 hover:text-zinc-800 transition-colors' href={link.href}>
+> 15 | 					{</Link>)}
+     | 					 ^
+  16 |
+  17 | 		</ul>
+  18 | 	</nav>
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+[00:27:53.546] Browser ERROR   ./app/NavBar.tsx:15:8
+Parsing ecmascript source code failed
+  13 | 			{links.map(link => 
+  14 | 				<Link key={link.href} className='text-zink-500 hover:text-zinc-800 transition-colors' href={link.href}>
+> 15 | 					{</Link>)}
+     | 					  ^^^^^^^^
+  16 |
+  17 | 		</ul>
+  18 | 	</nav>
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+[00:27:54.616] Server  LOG      ✓ Compiled in 15ms
+[00:27:56.574] Browser ERROR   ./app/NavBar.tsx:15:12
+Parsing ecmascript source code failed
+  13 | 			{links.map(link => 
+  14 | 				<Link key={link.href} className='text-zink-500 hover:text-zinc-800 transition-colors' href={link.href}>
+> 15 | 					{link.}</Link>)}
+     | 					      ^
+  16 |
+  17 | 		</ul>
+  18 | 	</nav>
+
+Expected '</', got '}'
+
+Import trace:
+  Server Component:
+    ./app/NavBar.tsx
+    ./app/layout.tsx
+[00:28:00.619] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:15.088] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:15.494] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

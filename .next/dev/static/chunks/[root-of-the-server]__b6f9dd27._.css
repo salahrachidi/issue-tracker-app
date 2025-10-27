@@ -1,10 +1,33 @@
 /* [project]/app/globals.css [app-client] (css) */
+@layer properties {
+  @supports (((-webkit-hyphens: none)) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color: rgb(from red r g b)))) {
+    *, :before, :after, ::backdrop {
+      --tw-space-x-reverse: 0;
+      --tw-border-style: solid;
+    }
+  }
+}
+
 @layer theme {
   :root, :host {
     --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --color-indigo-800: #372aac;
+    --color-zinc-50: #fafafa;
+    --color-zinc-800: #27272a;
+    --spacing: .25rem;
+    --default-transition-duration: .15s;
+    --default-transition-timing-function: cubic-bezier(.4, 0, .2, 1);
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
+  }
+
+  @supports (color: lab(0% 0 0)) {
+    :root, :host {
+      --color-indigo-800: lab(26.6645% 37.9804 -68.6402);
+      --color-zinc-50: lab(98.26% 0 0);
+      --color-zinc-800: lab(15.7305% .613764 -2.16959);
+    }
   }
 }
 
@@ -264,7 +287,64 @@
   }
 }
 
-@layer components, utilities;
+@layer components;
+
+@layer utilities {
+  .mb-5 {
+    margin-bottom: calc(var(--spacing) * 5);
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .h-14 {
+    height: calc(var(--spacing) * 14);
+  }
+
+  .items-center {
+    align-items: center;
+  }
+
+  :where(.space-x-6 > :not(:last-child)) {
+    --tw-space-x-reverse: 0;
+    margin-inline-start: calc(calc(var(--spacing) * 6) * var(--tw-space-x-reverse));
+    margin-inline-end: calc(calc(var(--spacing) * 6) * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .border-b {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 1px;
+  }
+
+  .px-5 {
+    padding-inline: calc(var(--spacing) * 5);
+  }
+
+  .transition-colors {
+    transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to;
+    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
+    transition-duration: var(--tw-duration, var(--default-transition-duration));
+  }
+
+  @media (hover: hover) {
+    .hover\:text-indigo-800:hover {
+      color: var(--color-indigo-800);
+    }
+  }
+
+  @media (hover: hover) {
+    .hover\:text-zinc-50:hover {
+      color: var(--color-zinc-50);
+    }
+  }
+
+  @media (hover: hover) {
+    .hover\:text-zinc-800:hover {
+      color: var(--color-zinc-800);
+    }
+  }
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -279,6 +359,18 @@
 body {
   color: rgb(var(--foreground-rgb));
   padding: 1rem;
+}
+
+@property --tw-space-x-reverse {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+
+@property --tw-border-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
 }
 
 /* [next]/internal/font/google/inter_5972bc34.module.css [app-client] (css) */
