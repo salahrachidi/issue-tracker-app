@@ -1,2 +1,509 @@
-[00:00:00.719] Server  LOG      ✓ Ready in 498ms
-[00:41:06.112] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:00.640] Server  LOG      ✓ Ready in 422ms
+[00:00:02.589] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:03.365] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:03.939] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:04.505] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:34.631] Server  LOG      ✓ Compiled in 43ms
+[00:01:38.583] Server  LOG      ✓ Compiled in 77ms
+[00:01:40.737] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:41.361] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:00.069] Server  LOG      ✓ Compiled in 25ms
+[00:02:08.073] Server  LOG      ✓ Compiled in 37ms
+[00:02:48.680] Server  LOG      ✓ Compiled in 0ms
+[00:02:48.810] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:18.621] Server  LOG      ✓ Compiled in 31ms
+[00:07:19.719] Browser ERROR   uncaughtError: ReferenceError: TextArea is not defined
+[00:07:25.352] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:07:25.365] Server  LOG      ✓ Compiled in 85ms
+[00:07:25.912] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:35.876] Server  LOG      ✓ Compiled in 35ms
+[00:07:39.329] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:53.494] Server  LOG      ✓ Compiled in 35ms
+[00:07:57.587] Server  LOG      ✓ Compiled in 11ms
+[00:08:00.962] Server  LOG      ✓ Compiled in 46ms
+[00:08:11.135] Server  LOG      ✓ Compiled in 27ms
+[00:08:11.245] Browser ERROR   ./app/issues/new/page.tsx:13:2
+Parsing ecmascript source code failed
+  11 | 		<TextArea placeholder="description" />
+  12 | 		<B
+> 13 | 	</div>
+     | 	^
+  14 |   )
+  15 | }
+  16 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:08:11.245] Browser ERROR   ./app/issues/new/page.tsx:13:3
+Parsing ecmascript source code failed
+  11 | 		<TextArea placeholder="description" />
+  12 | 		<B
+> 13 | 	</div>
+     | 	 ^^^^^
+  14 |   )
+  15 | }
+  16 |
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:08:17.269] Browser ERROR   ./app/issues/new/page.tsx:13:2
+Parsing ecmascript source code failed
+  11 | 		<TextArea placeholder="description" />
+  12 | 		<Butt
+> 13 | 	</div>
+     | 	^
+  14 |   )
+  15 | }
+  16 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:08:17.270] Browser ERROR   ./app/issues/new/page.tsx:13:3
+Parsing ecmascript source code failed
+  11 | 		<TextArea placeholder="description" />
+  12 | 		<Butt
+> 13 | 	</div>
+     | 	 ^^^^^
+  14 |   )
+  15 | }
+  16 |
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:08:19.794] Browser ERROR   ./app/issues/new/page.tsx:14:2
+Parsing ecmascript source code failed
+  12 | 		<TextArea placeholder="description" />
+  13 | 		<Butterfly_Kids
+> 14 | 	</div>
+     | 	^
+  15 |   )
+  16 | }
+  17 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:08:19.794] Browser ERROR   ./app/issues/new/page.tsx:14:3
+Parsing ecmascript source code failed
+  12 | 		<TextArea placeholder="description" />
+  13 | 		<Butterfly_Kids
+> 14 | 	</div>
+     | 	 ^^^^^
+  15 |   )
+  16 | }
+  17 |
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:08:21.071] Browser ERROR   ./app/issues/new/page.tsx:13:2
+Parsing ecmascript source code failed
+  11 | 		<TextArea placeholder="description" />
+  12 | 		<Butterfly_Kids
+> 13 | 	</div>
+     | 	^
+  14 |   )
+  15 | }
+  16 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:08:21.071] Browser ERROR   ./app/issues/new/page.tsx:13:3
+Parsing ecmascript source code failed
+  11 | 		<TextArea placeholder="description" />
+  12 | 		<Butterfly_Kids
+> 13 | 	</div>
+     | 	 ^^^^^
+  14 |   )
+  15 | }
+  16 |
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:08:26.612] Browser ERROR   ./app/issues/new/page.tsx:13:2
+Parsing ecmascript source code failed
+  11 | 		<TextArea placeholder="description" />
+  12 | 		<Butt
+> 13 | 	</div>
+     | 	^
+  14 |   )
+  15 | }
+  16 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:08:26.612] Browser ERROR   ./app/issues/new/page.tsx:13:3
+Parsing ecmascript source code failed
+  11 | 		<TextArea placeholder="description" />
+  12 | 		<Butt
+> 13 | 	</div>
+     | 	 ^^^^^
+  14 |   )
+  15 | }
+  16 |
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:08:29.331] Browser ERROR   ./app/issues/new/page.tsx:13:2
+Parsing ecmascript source code failed
+  11 | 		<TextArea placeholder="description" />
+  12 | 		<But
+> 13 | 	</div>
+     | 	^
+  14 |   )
+  15 | }
+  16 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:08:29.331] Browser ERROR   ./app/issues/new/page.tsx:13:3
+Parsing ecmascript source code failed
+  11 | 		<TextArea placeholder="description" />
+  12 | 		<But
+> 13 | 	</div>
+     | 	 ^^^^^
+  14 |   )
+  15 | }
+  16 |
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:08:30.432] Browser ERROR   ./app/issues/new/page.tsx:13:2
+Parsing ecmascript source code failed
+  11 | 		<TextArea placeholder="description" />
+  12 | 		<Butt
+> 13 | 	</div>
+     | 	^
+  14 |   )
+  15 | }
+  16 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:08:30.432] Browser ERROR   ./app/issues/new/page.tsx:13:3
+Parsing ecmascript source code failed
+  11 | 		<TextArea placeholder="description" />
+  12 | 		<Butt
+> 13 | 	</div>
+     | 	 ^^^^^
+  14 |   )
+  15 | }
+  16 |
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:08:32.658] Browser ERROR   ./app/issues/new/page.tsx:13:2
+Parsing ecmascript source code failed
+  11 | 		<TextArea placeholder="description" />
+  12 | 		<Button
+> 13 | 	</div>
+     | 	^
+  14 |   )
+  15 | }
+  16 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:08:32.658] Browser ERROR   ./app/issues/new/page.tsx:13:3
+Parsing ecmascript source code failed
+  11 | 		<TextArea placeholder="description" />
+  12 | 		<Button
+> 13 | 	</div>
+     | 	 ^^^^^
+  14 |   )
+  15 | }
+  16 |
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:08:38.032] Browser ERROR   ./app/issues/new/page.tsx:13:2
+Parsing ecmascript source code failed
+  11 | 		<TextArea placeholder="description" />
+  12 | 		<
+> 13 | 	</div>
+     | 	^
+  14 |   )
+  15 | }
+  16 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:08:38.032] Browser ERROR   ./app/issues/new/page.tsx:13:3
+Parsing ecmascript source code failed
+  11 | 		<TextArea placeholder="description" />
+  12 | 		<
+> 13 | 	</div>
+     | 	 ^^^^^
+  14 |   )
+  15 | }
+  16 |
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:08:39.749] Browser ERROR   ./app/issues/new/page.tsx:13:2
+Parsing ecmascript source code failed
+  11 | 		<TextArea placeholder="description" />
+  12 | 		<Bu
+> 13 | 	</div>
+     | 	^
+  14 |   )
+  15 | }
+  16 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:08:39.749] Browser ERROR   ./app/issues/new/page.tsx:13:3
+Parsing ecmascript source code failed
+  11 | 		<TextArea placeholder="description" />
+  12 | 		<Bu
+> 13 | 	</div>
+     | 	 ^^^^^
+  14 |   )
+  15 | }
+  16 |
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:08:47.396] Browser ERROR   ./app/issues/new/page.tsx:13:2
+Parsing ecmascript source code failed
+  11 | 		<TextArea placeholder="description" />
+  12 | 		<Butt
+> 13 | 	</div>
+     | 	^
+  14 |   )
+  15 | }
+  16 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:08:47.396] Browser ERROR   ./app/issues/new/page.tsx:13:3
+Parsing ecmascript source code failed
+  11 | 		<TextArea placeholder="description" />
+  12 | 		<Butt
+> 13 | 	</div>
+     | 	 ^^^^^
+  14 |   )
+  15 | }
+  16 |
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:09:00.029] Browser ERROR   ./app/issues/new/page.tsx:13:2
+Parsing ecmascript source code failed
+  11 | 		<TextArea placeholder="description" />
+  12 | 		<button
+> 13 | 	</div>
+     | 	^
+  14 |   )
+  15 | }
+  16 |
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:09:00.029] Browser ERROR   ./app/issues/new/page.tsx:13:3
+Parsing ecmascript source code failed
+  11 | 		<TextArea placeholder="description" />
+  12 | 		<button
+> 13 | 	</div>
+     | 	 ^^^^^
+  14 |   )
+  15 | }
+  16 |
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:09:05.871] Server  LOG      ✓ Compiled in 19ms
+[00:09:08.924] Server  LOG      ✓ Compiled in 11ms
+[00:09:10.002] Server  LOG      ✓ Compiled in 60ms
+[00:09:12.617] Server  LOG      ✓ Compiled in 14ms
+[00:09:17.939] Server  LOG      ✓ Compiled in 23ms
