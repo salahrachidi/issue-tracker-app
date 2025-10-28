@@ -507,3 +507,186 @@ Import traces:
 [00:09:10.002] Server  LOG      ✓ Compiled in 60ms
 [00:09:12.617] Server  LOG      ✓ Compiled in 14ms
 [00:09:17.939] Server  LOG      ✓ Compiled in 23ms
+[00:12:10.435] Server  ERROR    ⨯ ReferenceError: ThemePanel is not defined
+[00:12:10.575] Browser ERROR   uncaughtError: ReferenceError: ThemePanel is not defined
+[00:12:31.137] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:36.378] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:58.435] Browser ERROR   ./app/layout.tsx:29:14
+Parsing ecmascript source code failed
+  27 |         <ThemePanel />
+  28 |       </Theme>
+> 29 |       </body>
+     |              ^
+> 30 |     </html>
+     | ^^^^^
+  31 |   )
+  32 | }
+  33 |
+
+Expected '</', got 'jsx text (
+    )'
+[00:14:24.879] Browser ERROR   ./app/layout.tsx:27:15
+Parsing ecmascript source code failed
+  25 |         <main className="p-5">{children}</main>
+  26 |         <ThemePanel />
+> 27 |       </Theme>
+     |               ^
+> 28 |       </body>
+     | ^^^^^^^
+  29 |     </html>
+  30 |   )
+  31 | }
+
+Expected '</', got 'jsx text (
+      )'
+[00:14:38.362] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:41.810] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:49.441] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:05:41.697] Server  LOG      ✓ Compiled in 120ms
+[10:05:47.084] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:09:17.508] Server  LOG      ✓ Compiled in 174ms
+[10:10:36.359] Server  LOG      ✓ Compiled in 89ms
+[10:10:38.418] Browser ERROR   ./app/layout.tsx:9:1
+Parsing ecmascript source code failed
+   7 | import 
+   8 |
+>  9 | const inter = Inter({ 
+     | ^^^^^
+  10 |     subsets: ['latin'],
+  11 |     variable: "--font-inter", })
+  12 |
+
+Expected 'from', got 'const'
+[10:10:47.221] Browser ERROR   ./app/layout.tsx:3:1
+Parsing ecmascript source code failed
+  1 | import "@radix-ui/themes/styles.css"
+  2 | import 
+> 3 | import './globals.css'
+    | ^^^^^^
+  4 | import type { Metadata } from 'next'
+  5 | import { Inter } from 'next/font/google'
+  6 | import NavBar from './NavBar'
+
+Expected 'from', got 'import'
+[10:10:54.194] Browser ERROR   ./app/layout.tsx:2:9
+Parsing ecmascript source code failed
+  1 | import "@radix-ui/themes/styles.css"
+> 2 | import ./
+    |         ^
+  3 | import './globals.css'
+  4 | import type { Metadata } from 'next'
+  5 | import { Inter } from 'next/font/google'
+
+Expression expected
+[10:11:00.631] Server  ERROR    ⨯ ./app/layout.tsx:2:1
+Module not found: Can't resolve './'
+  1 | import "@radix-ui/themes/styles.css"
+> 2 | import './'
+    | ^^^^^^^^^^^
+  3 | import './globals.css'
+  4 | import type { Metadata } from 'next'
+  5 | import { Inter } from 'next/font/google'
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[10:11:00.632] Server  ERROR    ⨯ ./app/layout.tsx:2:1
+Module not found: Can't resolve './'
+  1 | import "@radix-ui/themes/styles.css"
+> 2 | import './'
+    | ^^^^^^^^^^^
+  3 | import './globals.css'
+  4 | import type { Metadata } from 'next'
+  5 | import { Inter } from 'next/font/google'
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[10:11:00.633] Server  ERROR    ⨯ ./app/layout.tsx:2:1
+Module not found: Can't resolve './'
+  1 | import "@radix-ui/themes/styles.css"
+> 2 | import './'
+    | ^^^^^^^^^^^
+  3 | import './globals.css'
+  4 | import type { Metadata } from 'next'
+  5 | import { Inter } from 'next/font/google'
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[10:11:00.633] Server  ERROR    ⨯ ./app/layout.tsx:2:1
+Module not found: Can't resolve './'
+  1 | import "@radix-ui/themes/styles.css"
+> 2 | import './'
+    | ^^^^^^^^^^^
+  3 | import './globals.css'
+  4 | import type { Metadata } from 'next'
+  5 | import { Inter } from 'next/font/google'
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[10:11:00.634] Server  ERROR    ⨯ ./app/layout.tsx:2:1
+Module not found: Can't resolve './'
+  1 | import "@radix-ui/themes/styles.css"
+> 2 | import './'
+    | ^^^^^^^^^^^
+  3 | import './globals.css'
+  4 | import type { Metadata } from 'next'
+  5 | import { Inter } from 'next/font/google'
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[10:11:00.634] Server  ERROR    ⨯ ./app/layout.tsx:2:1
+Module not found: Can't resolve './'
+  1 | import "@radix-ui/themes/styles.css"
+> 2 | import './'
+    | ^^^^^^^^^^^
+  3 | import './globals.css'
+  4 | import type { Metadata } from 'next'
+  5 | import { Inter } from 'next/font/google'
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[10:11:00.635] Server  ERROR    ⨯ ./app/layout.tsx:2:1
+Module not found: Can't resolve './'
+  1 | import "@radix-ui/themes/styles.css"
+> 2 | import './'
+    | ^^^^^^^^^^^
+  3 | import './globals.css'
+  4 | import type { Metadata } from 'next'
+  5 | import { Inter } from 'next/font/google'
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[10:11:01.585] Browser ERROR   ./app/layout.tsx:2:1
+Module not found: Can't resolve './'
+  1 | import "@radix-ui/themes/styles.css"
+> 2 | import './'
+    | ^^^^^^^^^^^
+  3 | import './globals.css'
+  4 | import type { Metadata } from 'next'
+  5 | import { Inter } from 'next/font/google'
+
+https://nextjs.org/docs/messages/module-not-found
+[10:11:20.907] Server  LOG      ✓ Compiled in 147ms
+[10:11:21.609] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:12:00.768] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:12:01.707] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
