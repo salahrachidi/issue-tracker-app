@@ -2914,3 +2914,191 @@ Import traces:
 [02:04:55.583] Server  LOG      ✓ Compiled in 24ms
 [02:05:03.900] Server  LOG      ✓ Compiled in 28ms
 [02:05:07.241] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:10:20.907] Server  LOG      ✓ Compiled in 119ms
+[02:10:25.588] Server  LOG      ✓ Compiled in 59ms
+[02:10:25.695] Browser ERROR   ./app/issues/new/page.tsx:41:4
+Parsing ecmascript source code failed
+  39 | 			{errors.title && 
+  40 | 			
+> 41 | 			}
+     | 			^
+  42 | 			<Controller
+  43 | 				name="description"
+  44 | 				control={control}
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[02:10:28.975] Browser ERROR   ./app/issues/new/page.tsx:41:4
+Parsing ecmascript source code failed
+  39 | 			{errors.title && 
+  40 | 			<text
+> 41 | 			}
+     | 			^
+  42 | 			<Controller
+  43 | 				name="description"
+  44 | 				control={control}
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[02:10:37.132] Server  LOG      ✓ Compiled in 42ms
+[02:10:37.268] Browser ERROR   uncaughtError: ReferenceError: Er is not defined
+[02:10:38.871] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:10:38.885] Server  LOG      ✓ Compiled in 24ms
+[02:10:39.471] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:10:40.992] Server  LOG      ✓ Compiled in 23ms
+[02:10:45.654] Server  LOG      ✓ Compiled in 12ms
+[02:10:47.264] Server  LOG      ✓ Compiled in 28ms
+[02:11:00.782] Server  LOG      ✓ Compiled in 39ms
+[02:11:03.572] Server  LOG      ✓ Compiled in 29ms
+[02:11:45.733] Server  LOG      ✓ Compiled in 141ms
+[02:11:46.410] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:11:53.137] Server  LOG      ✓ Compiled in 35ms
+[02:12:01.270] Server  LOG      ✓ Compiled in 49ms
+[02:12:01.385] Browser ERROR   ./app/components/ErrorMessage.tsx:6:7
+Parsing ecmascript source code failed
+  4 |
+  5 | const ErrorMessage = ({children}: PropsWithChildren) => {
+> 6 | 	if (!)
+    | 	     ^
+  7 |   return (
+  8 | 	<Text color='red' as='p'>
+  9 | 		{children}
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/components/ErrorMessage.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/components/ErrorMessage.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[02:12:10.677] Server  LOG      ✓ Compiled in 37ms
+[02:12:12.892] Server  LOG      ✓ Compiled in 24ms
+[02:12:21.915] Server  LOG      ✓ Compiled in 27ms
+[02:12:31.234] Server  LOG      ✓ Compiled in 37ms
+[02:12:40.733] Server  LOG      ✓ Compiled in 37ms
+[02:12:40.842] Browser ERROR   ./app/issues/new/page.tsx:43:4
+Parsing ecmascript source code failed
+  41 | 				
+  42 | 			</ErrorMessage>
+> 43 | 			}
+     | 			^
+  44 | 			<Controller
+  45 | 				name="description"
+  46 | 				control={control}
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[02:12:46.008] Server  LOG      ✓ Compiled in 32ms
+[02:12:47.902] Server  LOG      ✓ Compiled in 35ms
+[02:12:50.728] Server  LOG      ✓ Compiled in 70ms
+[02:12:50.824] Browser ERROR   uncaughtError: Error: Objects are not valid as a React child (found: object with keys {}). If you meant to render a collection of children, use an array instead.
+[02:12:53.901] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:12:53.913] Server  LOG      ✓ Compiled in 27ms
+[02:12:54.514] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:12:56.660] Server  LOG      ✓ Compiled in 90ms
+[02:12:56.765] Browser ERROR   ./app/issues/new/page.tsx:40:33
+Parsing ecmascript source code failed
+  38 | 		<form className=' space-y-3' onSubmit={onSubmit}>
+  39 | 			<TextField.Root placeholder='Title' {...register('title')} />
+> 40 | 			<ErrorMessage>{errors.title?.}</ErrorMessage>
+     | 			                             ^
+  41 | 			<Controller
+  42 | 				name="description"
+  43 | 				control={control}
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[02:12:59.442] Server  LOG      ✓ Compiled in 46ms
+[02:13:31.561] Server  LOG      ✓ Compiled in 43ms
+[02:13:34.804] Server  LOG      ✓ Compiled in 18ms
+[02:13:44.056] Server  LOG      ✓ Compiled in 52ms
+[02:13:44.167] Browser ERROR   ./app/issues/new/page.tsx:48:12
+Parsing ecmascript source code failed
+  46 | 			{errors.description && 
+  47 | 			<ErrorMessage>{errors.title?.message}</ErrorMessage>
+> 48 | 			<Button type="submit">Submit new issue</Button>
+     | 			        ^^^^
+  49 | 		</form>
+  50 | 	</div>
+  51 |   )
+
+Expected '</', got 'type'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[02:13:45.504] Server  LOG      ✓ Compiled in 32ms
+[02:13:48.499] Server  LOG      ✓ Compiled in 26ms
+[02:13:48.605] Browser ERROR   ./app/issues/new/page.tsx:49:12
+Parsing ecmascript source code failed
+  47 | 			<Text color='red' as='p'>{errors.description.message}
+  48 | 			</Text>
+> 49 | 			<Button type="submit">Submit new issue</Button>
+     | 			        ^^^^
+  50 | 		</form>
+  51 | 	</div>
+  52 |   )
+
+Expected '</', got 'type'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[02:13:50.662] Server  LOG      ✓ Compiled in 15ms
+[02:13:50.883] Browser ERROR   uncaughtError: TypeError: can't access property "message", errors.description is undefined
+[02:13:53.639] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:13:53.660] Server  LOG      ✓ Compiled in 37ms
+[02:13:54.173] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:13:56.881] Server  LOG      ✓ Compiled in 28ms
+[02:13:58.133] Server  LOG      ✓ Compiled in 9ms
+[02:14:12.402] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:14:13.773] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:14:13.773] Browser ERROR   unhandledRejection: Error: Failed to load chunk /_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_c8c997ce._.js from module [turbopack]/browser/dev/hmr-client/hmr-client.ts [app-client] (ecmascript, async loader)
+[02:14:29.280] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
