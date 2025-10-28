@@ -28,7 +28,7 @@ const NewIssuePage = () => {
 		} catch (error) {
 			setError('An unexpected error occurred.');
 		}
-	});
+	});	
   return (
 	<div className='max-w-xl'>
 		{error && <Callout.Root color='red' className='mb-5'>
