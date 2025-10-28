@@ -28,7 +28,6 @@ A modern, full‑stack **issue tracking** web app built with **Next.js/React**, 
 | ORM / DB     | Prisma, MySQL                                                          |
 | Optional     | Datagraph (for ERD/DB diagrams – optional)                             |
 
-> If you used a different diagramming tool, just replace “Datagraph” above.
 
 ---
 
@@ -164,8 +163,6 @@ enum Priority {
 }
 ```
 
-> Tip: update fields/enums to match your actual schema.
-
 ---
 
 ## 🔌 API (sample routes)
@@ -249,9 +246,7 @@ pnpm start
 
 - Kanban board & drag‑and‑drop
 - Activity log & audit trail
-- Role‑based permissions
-- Webhooks & integrations (Slack, GitHub)
-- Advanced reporting dashboards
+- Webhooks & integrations (GitHub)
 
 ---
 
@@ -263,4 +258,4 @@ PRs welcome! Please open an issue to discuss major changes first.
 
 ## 🛡️ License
 
-MIT © <your‑name>
+MIT © **@salahrachidi**
