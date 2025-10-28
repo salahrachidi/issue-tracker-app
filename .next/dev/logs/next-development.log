@@ -2209,3 +2209,708 @@ If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.
 [01:32:38.063] Server  LOG      ✓ Compiled in 16ms
 [01:32:41.271] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [01:32:43.918] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:38:10.223] Server  LOG      ✓ Compiled in 74ms
+[01:38:10.334] Browser ERROR   ./app/issues/new/page.tsx:10:1
+Parsing ecmascript source code failed
+   8 | import { useState } from 'react';
+   9 | import
+> 10 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+     | ^^^^^
+  11 | 	ssr: false,
+  12 | });
+  13 |
+
+Expected 'from', got 'const'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[01:38:12.164] Browser ERROR   ./app/issues/new/page.tsx:10:1
+Parsing ecmascript source code failed
+   8 | import { useState } from 'react';
+   9 | import P
+> 10 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+     | ^^^^^
+  11 | 	ssr: false,
+  12 | });
+  13 |
+
+Expected ',', got 'const'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[01:38:14.251] Browser ERROR   ./app/issues/new/page.tsx:10:1
+Parsing ecmascript source code failed
+   8 | import { useState } from 'react';
+   9 | import {}
+> 10 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+     | ^^^^^
+  11 | 	ssr: false,
+  12 | });
+  13 |
+
+Expected 'from', got 'const'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[01:38:16.428] Browser ERROR   ./app/issues/new/page.tsx:10:1
+Parsing ecmascript source code failed
+   8 | import { useState } from 'react';
+   9 | import {zod}
+> 10 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+     | ^^^^^
+  11 | 	ssr: false,
+  12 | });
+  13 |
+
+Expected 'from', got 'const'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[01:38:20.891] Server  LOG      ✓ Compiled in 70ms
+[01:38:25.405] Server  LOG      ✓ Compiled in 32ms
+[01:38:42.820] Server  LOG      ✓ Compiled in 76ms
+[01:58:13.939] Server  LOG      ✓ Compiled in 239ms
+[01:58:14.109] Browser ERROR   uncaughtError: ReferenceError: resolver is not defined
+[01:58:15.503] Server  LOG      ✓ Compiled in 81ms
+[01:58:15.621] Browser ERROR   ./app/issues/new/page.tsx:26:2
+Parsing ecmascript source code failed
+  24 | 	const { register, control, handleSubmit } = useForm<IssueForm>({
+  25 | 		resolver: 
+> 26 | 	});
+     | 	^
+  27 | 	const onSubmit = handleSubmit(async (data) => {
+  28 | 		try {
+  29 | 			await axios.post('/api/issues', data);
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[01:58:19.745] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:58:19.755] Server  LOG      ✓ Compiled in 323ms
+[01:58:22.077] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:58:27.393] Server  LOG      ✓ Compiled in 29ms
+[01:58:32.446] Server  LOG      ✓ Compiled in 29ms
+[01:58:32.577] Browser ERROR   uncaughtError: ReferenceError: creat is not defined
+[01:58:35.744] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:58:35.759] Server  LOG      ✓ Compiled in 22ms
+[01:58:36.162] Server  ERROR    ⨯ ReferenceError: create is not defined
+[01:58:36.456] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:58:36.637] Browser ERROR   uncaughtError: ReferenceError: create is not defined
+[01:58:39.250] Server  LOG      ✓ Compiled in 247ms
+[01:58:39.295] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:58:39.295] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:58:39.910] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[01:58:40.227] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:58:40.451] Server  LOG      ✓ Compiled in 59ms
+[01:58:40.455] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[01:58:40.592] Browser ERROR   ./app/issues/new/page.tsx:26:43
+Parsing ecmascript source code failed
+  24 | 	const router = useRouter();
+  25 | 	const { register, control, handleSubmit } = useForm<IssueForm>({
+> 26 | 		resolver: zodResolver(createIssueSchema);
+     | 		                                        ^
+  27 | 	});
+  28 | 	const onSubmit = handleSubmit(async (data) => {
+  29 | 		try {
+
+Expected ',', got ';'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[01:58:40.592] Browser ERROR   ./app/issues/new/page.tsx:26:43
+Parsing ecmascript source code failed
+  24 | 	const router = useRouter();
+  25 | 	const { register, control, handleSubmit } = useForm<IssueForm>({
+> 26 | 		resolver: zodResolver(createIssueSchema);
+     | 		                                        ^
+  27 | 	});
+  28 | 	const onSubmit = handleSubmit(async (data) => {
+  29 | 		try {
+
+Expected ',', got ';'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[01:58:47.046] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:58:47.046] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:58:47.046] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:58:47.072] Server  LOG      ✓ Compiled in 48ms
+[01:58:47.320] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[01:58:47.553] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:58:47.704] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[01:59:31.254] Server  LOG      ✓ Compiled in 79ms
+[01:59:31.388] Browser ERROR   ./app/issues/new/page.tsx:12:1
+Parsing ecmascript source code failed
+  10 | import { createIssueSchema } from '@/app/validationSchemas';
+  11 | import 
+> 12 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+     | ^^^^^
+  13 | 	ssr: false,
+  14 | });
+  15 |
+
+Expected 'from', got 'const'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[01:59:37.978] Browser ERROR   ./app/issues/new/page.tsx:12:1
+Parsing ecmascript source code failed
+  10 | import { createIssueSchema } from '@/app/validationSchemas';
+  11 | import { z } from 
+> 12 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+     | ^^^^^
+  13 | 	ssr: false,
+  14 | });
+  15 |
+
+Unexpected token `const`. Expected a string literal
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[01:59:39.752] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:59:39.752] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:59:39.752] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:59:39.769] Server  LOG      ✓ Compiled in 59ms
+[01:59:40.126] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[01:59:40.401] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:59:40.585] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[01:59:44.408] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:59:44.408] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:59:44.409] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:59:44.424] Server  LOG      ✓ Compiled in 10ms
+[01:59:45.289] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[01:59:45.578] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:59:45.747] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[01:59:49.947] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:59:49.947] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:59:49.947] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:59:49.974] Server  LOG      ✓ Compiled in 29ms
+[01:59:50.495] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[01:59:50.750] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:59:50.750] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[01:59:58.770] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:59:58.770] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:59:58.770] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:59:58.793] Server  LOG      ✓ Compiled in 28ms
+[01:59:59.169] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[01:59:59.404] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:59:59.544] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[02:00:02.040] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:00:02.040] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:00:02.040] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:00:02.061] Server  LOG      ✓ Compiled in 34ms
+[02:00:02.467] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[02:00:02.755] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:00:02.881] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[02:00:03.355] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:00:03.356] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:00:03.356] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:00:03.509] Server  LOG      ✓ Compiled in 30ms
+[02:00:03.732] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[02:00:03.977] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:00:04.158] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[02:00:06.526] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:00:06.526] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:00:06.546] Server  LOG      ✓ Compiled in 28ms
+[02:00:06.588] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:00:06.969] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[02:00:07.165] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:00:07.315] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[02:00:10.619] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:00:10.619] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:00:10.619] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:00:10.636] Server  LOG      ✓ Compiled in 31ms
+[02:00:11.065] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[02:00:11.388] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:00:11.554] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[02:00:11.992] Server  LOG      ✓ Compiled in 341ms
+[02:00:11.995] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:00:11.995] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:00:11.995] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:00:12.419] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[02:00:12.672] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:00:12.835] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[02:00:19.510] Server  LOG      ✓ Compiled in 19ms
+[02:00:19.755] Browser ERROR   ./app/issues/new/page.tsx:16:16
+Parsing ecmascript source code failed
+  14 | });
+  15 |
+> 16 | z.infer<typeof >
+     |                ^
+  17 |
+  18 | const NewIssuePage = () => {
+  19 | 	const[error, setError] = useState('');
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[02:00:25.576] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:00:25.576] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:00:25.576] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:00:25.579] Server  LOG      ✓ Compiled in 34ms
+[02:00:25.927] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[02:00:26.185] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:00:26.356] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[02:00:33.111] Server  LOG      ✓ Compiled in 89ms
+[02:00:33.217] Browser ERROR   ./app/issues/new/page.tsx:16:7
+Parsing ecmascript source code failed
+  14 | });
+  15 |
+> 16 | type z.infer<typeof createIssueSchema>;
+     |       ^
+  17 |
+  18 | const NewIssuePage = () => {
+  19 | 	const[error, setError] = useState('');
+
+Unexpected token `.`. Expected =
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[02:00:35.247] Browser ERROR   ./app/issues/new/page.tsx:16:12
+Parsing ecmascript source code failed
+  14 | });
+  15 |
+> 16 | type Issuez.infer<typeof createIssueSchema>;
+     |            ^
+  17 |
+  18 | const NewIssuePage = () => {
+  19 | 	const[error, setError] = useState('');
+
+Unexpected token `.`. Expected =
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[02:00:38.091] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:00:38.091] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:00:38.091] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:00:38.109] Server  LOG      ✓ Compiled in 59ms
+[02:00:38.783] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[02:00:39.053] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:00:39.232] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[02:00:53.536] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:00:53.536] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:00:53.536] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:00:53.556] Server  LOG      ✓ Compiled in 26ms
+[02:00:54.089] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[02:00:54.489] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:00:54.641] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[02:00:54.656] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:00:54.656] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:00:54.656] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:00:54.685] Server  LOG      ✓ Compiled in 56ms
+[02:00:55.085] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[02:00:55.524] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:00:55.751] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[02:00:59.778] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:00:59.779] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:00:59.779] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:00:59.800] Server  LOG      ✓ Compiled in 21ms
+[02:01:00.320] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[02:01:00.571] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:01:00.720] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[02:01:21.593] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:01:21.593] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:01:21.596] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:01:21.605] Server  LOG      ✓ Compiled in 103ms
+[02:01:22.161] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[02:01:22.473] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:01:22.640] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[02:01:36.043] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:01:36.043] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:01:36.043] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:01:36.062] Server  LOG      ✓ Compiled in 37ms
+[02:01:36.666] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[02:01:36.929] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:01:37.073] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[02:01:41.110] Server  LOG      ✓ Compiled in 55ms
+[02:01:41.217] Browser ERROR   ./app/issues/new/page.tsx:39:12
+Parsing ecmascript source code failed
+  37 | 		<form className=' space-y-3' onSubmit={onSubmit}>
+  38 | 			<TextField.Root placeholder='Title' {...register('title')} />
+> 39 | 			{errors.}
+     | 			        ^
+  40 | 			<Controller
+  41 | 				name="description"
+  42 | 				control={control}
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[02:01:42.690] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:01:42.690] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:01:42.690] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:01:42.715] Server  LOG      ✓ Compiled in 30ms
+[02:01:43.090] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[02:01:43.498] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:01:43.762] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[02:01:54.327] Server  LOG      ✓ Compiled in 37ms
+[02:01:54.431] Browser ERROR   ./app/issues/new/page.tsx:39:21
+Parsing ecmascript source code failed
+  37 | 		<form className=' space-y-3' onSubmit={onSubmit}>
+  38 | 			<TextField.Root placeholder='Title' {...register('title')} />
+> 39 | 			{errors.title && }
+     | 			                 ^
+  40 | 			<Controller
+  41 | 				name="description"
+  42 | 				control={control}
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[02:01:58.533] Browser ERROR   ./app/issues/new/page.tsx:39:24
+Parsing ecmascript source code failed
+  37 | 		<form className=' space-y-3' onSubmit={onSubmit}>
+  38 | 			<TextField.Root placeholder='Title' {...register('title')} />
+> 39 | 			{errors.title && <TE}
+     | 			                    ^
+  40 | 			<Controller
+  41 | 				name="description"
+  42 | 				control={control}
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[02:02:01.832] Browser ERROR   ./app/issues/new/page.tsx:39:26
+Parsing ecmascript source code failed
+  37 | 		<form className=' space-y-3' onSubmit={onSubmit}>
+  38 | 			<TextField.Root placeholder='Title' {...register('title')} />
+> 39 | 			{errors.title && <Text}
+     | 			                      ^
+  40 | 			<Controller
+  41 | 				name="description"
+  42 | 				control={control}
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[02:02:03.569] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:02:03.569] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:02:03.570] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:02:03.587] Server  LOG      ✓ Compiled in 32ms
+[02:02:04.059] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[02:02:04.303] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:02:04.464] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[02:02:13.976] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:02:13.976] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:02:13.976] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:02:13.994] Server  LOG      ✓ Compiled in 82ms
+[02:02:14.510] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[02:02:14.826] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:02:15.025] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[02:02:20.163] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:02:20.163] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:02:20.164] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:02:20.184] Server  LOG      ✓ Compiled in 23ms
+[02:02:20.713] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[02:02:21.034] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:02:21.272] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[02:02:23.766] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:02:23.766] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:02:23.767] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:02:23.791] Server  LOG      ✓ Compiled in 25ms
+[02:02:24.318] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[02:02:24.598] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:02:24.781] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[02:02:28.348] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:02:28.348] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:02:28.348] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:02:28.365] Server  LOG      ✓ Compiled in 28ms
+[02:02:28.891] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[02:02:29.165] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:02:29.339] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[02:02:31.318] Server  LOG      ✓ Compiled in 38ms
+[02:02:31.428] Browser ERROR   ./app/issues/new/page.tsx:39:48
+Parsing ecmascript source code failed
+  37 | 		<form className=' space-y-3' onSubmit={onSubmit}>
+  38 | 			<TextField.Root placeholder='Title' {...register('title')} />
+> 39 | 			{errors.title && <Text color='red'> {errors.} </Text>}
+     | 			                                            ^
+  40 | 			<Controller
+  41 | 				name="description"
+  42 | 				control={control}
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[02:02:34.126] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:02:34.127] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:02:34.127] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:02:34.152] Server  LOG      ✓ Compiled in 30ms
+[02:02:34.565] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[02:02:35.211] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:02:35.513] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[02:02:36.186] Server  LOG      ✓ Compiled in 61ms
+[02:02:36.308] Browser ERROR   ./app/issues/new/page.tsx:39:54
+Parsing ecmascript source code failed
+  37 | 		<form className=' space-y-3' onSubmit={onSubmit}>
+  38 | 			<TextField.Root placeholder='Title' {...register('title')} />
+> 39 | 			{errors.title && <Text color='red'> {errors.title.} </Text>}
+     | 			                                                  ^
+  40 | 			<Controller
+  41 | 				name="description"
+  42 | 				control={control}
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[02:02:39.671] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:02:39.671] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:02:39.671] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:02:39.691] Server  LOG      ✓ Compiled in 85ms
+[02:02:40.178] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[02:02:40.398] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:02:40.554] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[02:02:43.166] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:02:43.166] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:02:43.166] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:02:43.184] Server  LOG      ✓ Compiled in 22ms
+[02:02:43.721] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[02:02:43.977] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:02:44.144] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[02:02:57.083] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:02:57.084] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:02:57.085] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:02:57.099] Server  LOG      ✓ Compiled in 27ms
+[02:02:57.561] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[02:02:57.850] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:02:58.064] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[02:02:59.612] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:02:59.612] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:02:59.612] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:02:59.631] Server  LOG      ✓ Compiled in 32ms
+[02:03:00.026] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[02:03:00.235] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:03:00.376] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[02:03:02.508] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:03:02.508] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:03:02.508] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:03:02.532] Server  LOG      ✓ Compiled in 24ms
+[02:03:02.946] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[02:03:03.211] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:03:03.377] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[02:03:05.216] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:03:05.216] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:03:05.216] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:03:05.240] Server  LOG      ✓ Compiled in 33ms
+[02:03:05.654] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[02:03:05.860] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:03:06.009] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[02:03:06.922] Server  LOG      ✓ Compiled in 36ms
+[02:03:07.038] Browser ERROR   ./app/issues/new/page.tsx:45:27
+Parsing ecmascript source code failed
+  43 | 				render={({ field }) => <SimpleMdeReact placeholder="description" {...field}/>}
+  44 | 			/>
+> 45 | 			{errors.description && }
+     | 			                       ^
+  46 | 			<Button type="submit">Submit new issue</Button>
+  47 | 		</form>
+  48 | 	</div>
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[02:03:11.308] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:03:11.308] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:03:11.308] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:03:11.322] Server  LOG      ✓ Compiled in 109ms
+[02:03:12.013] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[02:03:12.455] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:03:12.672] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[02:03:15.718] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:03:15.718] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:03:15.719] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:03:15.738] Server  LOG      ✓ Compiled in 77ms
+[02:03:16.217] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[02:03:16.850] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:03:17.084] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[02:03:17.370] Server  LOG      ✓ Compiled in 109ms
+[02:03:17.479] Browser ERROR   ./app/issues/new/page.tsx:45:46
+Parsing ecmascript source code failed
+  43 | 				render={({ field }) => <SimpleMdeReact placeholder="description" {...field}/>}
+  44 | 			/>
+> 45 | 			{errors.description && <Text color='red'>{</Text>}
+     | 			                                          ^
+  46 | 			<Button type="submit">Submit new issue</Button>
+  47 | 		</form>
+  48 | 	</div>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[02:03:17.479] Browser ERROR   ./app/issues/new/page.tsx:45:47
+Parsing ecmascript source code failed
+  43 | 				render={({ field }) => <SimpleMdeReact placeholder="description" {...field}/>}
+  44 | 			/>
+> 45 | 			{errors.description && <Text color='red'>{</Text>}
+     | 			                                           ^^^^^^^
+  46 | 			<Button type="submit">Submit new issue</Button>
+  47 | 		</form>
+  48 | 	</div>
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[02:03:24.602] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:03:24.602] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:03:24.602] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:03:24.617] Server  LOG      ✓ Compiled in 39ms
+[02:03:25.165] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[02:03:25.697] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:03:25.909] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[02:03:28.608] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:03:28.609] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:03:28.609] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:03:28.634] Server  LOG      ✓ Compiled in 31ms
+[02:03:29.241] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[02:03:29.531] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:03:29.695] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[02:03:32.145] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'object')
+[02:03:32.329] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:03:32.474] Browser ERROR   uncaughtError: TypeError: can't access property "object", __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$zod$2f$v3$2f$external$2e$cjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__.z is undefined
+[02:04:18.820] Server  LOG      ✓ Compiled in 180ms
+[02:04:18.879] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:04:18.879] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/validationSchemas.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:04:18.879] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:04:19.545] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:04:23.541] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:04:54.188] Server  LOG      ✓ Compiled in 37ms
+[02:04:55.583] Server  LOG      ✓ Compiled in 24ms
+[02:05:03.900] Server  LOG      ✓ Compiled in 28ms
+[02:05:07.241] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
