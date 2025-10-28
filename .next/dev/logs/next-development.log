@@ -3304,3 +3304,169 @@ Import traces:
 [02:29:18.726] Server  LOG      ✓ Compiled in 30ms
 [02:29:21.891] Server  LOG      ✓ Compiled in 27ms
 [02:29:26.209] Server  LOG      ✓ Compiled in 38ms
+[02:31:55.824] Server  LOG      ✓ Compiled in 159ms
+[02:32:04.701] Server  LOG      ✓ Compiled in 47ms
+[02:32:04.808] Browser ERROR   ./app/issues/new/page.tsx:37:3
+Parsing ecmascript source code failed
+  35 | 	});
+  36 | 	const 
+> 37 |   return (
+     |   ^^^^^^
+  38 | 	<div className='max-w-xl'>
+  39 | 		{error && <Callout.Root color='red' className='mb-5'>
+  40 | 			<Callout.Text>{error}</Callout.Text>
+
+Expected ident
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[02:32:08.774] Server  LOG      ✓ Compiled in 97ms
+[02:32:08.890] Browser ERROR   ./app/issues/new/page.tsx:37:3
+Parsing ecmascript source code failed
+  35 | 	});
+  36 | 	const onSubmit = 
+> 37 |   return (
+     |   ^^^^^^
+  38 | 	<div className='max-w-xl'>
+  39 | 		{error && <Callout.Root color='red' className='mb-5'>
+  40 | 			<Callout.Text>{error}</Callout.Text>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[02:32:15.036] Browser ERROR   ./app/issues/new/page.tsx:37:3
+Parsing ecmascript source code failed
+  35 | 	});
+  36 | 	const onSubmit =  
+> 37 |   return (
+     |   ^^^^^^
+  38 | 	<div className='max-w-xl'>
+  39 | 		{error && <Callout.Root color='red' className='mb-5'>
+  40 | 			<Callout.Text>{error}</Callout.Text>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[02:32:29.208] Browser ERROR   ./app/issues/new/page.tsx:28:3
+Parsing ecmascript source code failed
+  26 | 	const onSubmit = handleSubmit(async (data) => {});
+  27 | 	const onSubmit =  
+> 28 |   return (
+     |   ^^^^^^
+  29 | 	<div className='max-w-xl'>
+  30 | 		{error && <Callout.Root color='red' className='mb-5'>
+  31 | 			<Callout.Text>{error}</Callout.Text>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[02:32:38.532] Browser ERROR   ./app/issues/new/page.tsx:28:3
+Parsing ecmascript source code failed
+  26 | 	const onSubmit = handleSubmit(async (data) => {});
+  27 | 	const onSubmit =  
+> 28 | 		try {
+     | 		^^^
+  29 | 			setSubmitting(true);
+  30 | 			await axios.post('/api/issues', data);
+  31 | 			router.push('/issues');
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[02:32:51.933] Server  LOG      ✓ Compiled in 70ms
+[02:32:54.151] Server  LOG      ✓ Compiled in 50ms
+[02:32:54.258] Browser ERROR   ./app/issues/new/page.tsx:37:3
+Parsing ecmascript source code failed
+  35 | 	});
+  36 | 	const onSubmit =
+> 37 |   return (
+     |   ^^^^^^
+  38 | 	<div className='max-w-xl'>
+  39 | 		{error && <Callout.Root color='red' className='mb-5'>
+  40 | 			<Callout.Text>{error}</Callout.Text>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[02:32:55.392] Browser ERROR   ./app/issues/new/page.tsx:37:3
+Parsing ecmascript source code failed
+  35 | 	});
+  36 | 	const onSubmit = 
+> 37 |   return (
+     |   ^^^^^^
+  38 | 	<div className='max-w-xl'>
+  39 | 		{error && <Callout.Root color='red' className='mb-5'>
+  40 | 			<Callout.Text>{error}</Callout.Text>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[02:33:09.401] Browser ERROR   ./app/issues/new/page.tsx:36:8
+Parsing ecmascript source code failed
+  34 | 		}
+  35 | 	});
+> 36 | 	const onSubmit
+     | 	      ^^^^^^^^
+  37 |   return (
+  38 | 	<div className='max-w-xl'>
+  39 | 		{error && <Callout.Root color='red' className='mb-5'>
+
+'const' declarations must be initialized
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[02:33:11.241] Server  LOG      ✓ Compiled in 26ms
