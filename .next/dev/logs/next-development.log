@@ -3470,3 +3470,4 @@ Import traces:
     ./app/issues/new/page.tsx [Client Component SSR]
     ./app/issues/new/page.tsx [Server Component]
 [02:33:11.241] Server  LOG      ✓ Compiled in 26ms
+[02:38:39.539] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
