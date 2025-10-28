@@ -2,3 +2,1512 @@
 [00:00:04.115] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [00:00:53.298] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [00:02:10.248] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:29.038] Server  LOG      ✓ Compiled in 117ms
+[00:05:32.379] Server  LOG      ✓ Compiled in 22ms
+[00:05:32.489] Browser ERROR   ./app/issues/new/page.tsx:7:1
+Parsing ecmascript source code failed
+   5 | import	
+   6 |
+>  7 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+     | ^^^^^
+   8 | 	ssr: false,
+   9 | });
+  10 |
+
+Expected 'from', got 'const'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:05:34.716] Browser ERROR   ./app/issues/new/page.tsx:7:1
+Parsing ecmascript source code failed
+   5 | import {}
+   6 |
+>  7 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+     | ^^^^^
+   8 | 	ssr: false,
+   9 | });
+  10 |
+
+Expected 'from', got 'const'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:05:38.306] Browser ERROR   ./app/issues/new/page.tsx:7:1
+Parsing ecmascript source code failed
+   5 | import { useForm }
+   6 |
+>  7 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+     | ^^^^^
+   8 | 	ssr: false,
+   9 | });
+  10 |
+
+Expected 'from', got 'const'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:05:42.002] Browser ERROR   ./app/issues/new/page.tsx:7:1
+Parsing ecmascript source code failed
+   5 | import { useForm } 
+   6 |
+>  7 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+     | ^^^^^
+   8 | 	ssr: false,
+   9 | });
+  10 |
+
+Expected 'from', got 'const'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:05:44.113] Browser ERROR   ./app/issues/new/page.tsx:7:1
+Parsing ecmascript source code failed
+   5 | import { useForm } from
+   6 |
+>  7 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+     | ^^^^^
+   8 | 	ssr: false,
+   9 | });
+  10 |
+
+Unexpected token `const`. Expected a string literal
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:06:05.553] Server  LOG      ✓ Compiled in 12ms
+[00:06:11.697] Server  LOG      ✓ Compiled in 54ms
+[00:06:11.806] Browser ERROR   ./app/issues/new/page.tsx:12:1
+Parsing ecmascript source code failed
+  10 |
+  11 |
+> 12 | interface	
+     | ^^^^^^^^^
+  13 |
+  14 | const NewIssuePage = () => {
+  15 |   return (
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:06:14.579] Browser ERROR   ./app/issues/new/page.tsx:14:1
+Parsing ecmascript source code failed
+  12 | interface	Issue
+  13 |
+> 14 | const NewIssuePage = () => {
+     | ^^^^^
+  15 |   return (
+  16 | 	<div className='max-w-xl space-y-3'>
+  17 | 		<TextField.Root placeholder='Title' />
+
+Expected '{', got 'const'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:06:16.464] Browser ERROR   ./app/issues/new/page.tsx:14:1
+Parsing ecmascript source code failed
+  12 | interface	IssueForm
+  13 |
+> 14 | const NewIssuePage = () => {
+     | ^^^^^
+  15 |   return (
+  16 | 	<div className='max-w-xl space-y-3'>
+  17 | 		<TextField.Root placeholder='Title' />
+
+Expected '{', got 'const'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:06:25.442] Server  LOG      ✓ Compiled in 37ms
+[00:06:25.546] Browser ERROR   ./app/issues/new/page.tsx:14:1
+Parsing ecmascript source code failed
+  12 | interface	IssueForm {
+  13 | 	title:	
+> 14 | }
+     | ^
+  15 |
+  16 | const NewIssuePage = () => {
+  17 |   return (
+
+Unexpected token `}`. Expected an identifier, void, yield, null, await, break, a string literal, a numeric literal, true, false, `, -, import, this, typeof, {, [, (
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:07:03.887] Server  LOG      ✓ Compiled in 26ms
+[00:07:07.264] Server  LOG      ✓ Compiled in 118ms
+[00:07:07.749] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:20.663] Server  LOG      ✓ Compiled in 37ms
+[00:07:26.618] Server  LOG      ✓ Compiled in 43ms
+[00:07:26.731] Browser ERROR   ./app/issues/new/page.tsx:18:8
+Parsing ecmascript source code failed
+  16 |
+  17 | const NewIssuePage = () => {
+> 18 | 	const {}useForm<IssueForm>();
+     | 	      ^^
+  19 |   return (
+  20 | 	<div className='max-w-xl space-y-3'>
+  21 | 		<TextField.Root placeholder='Title' />
+
+'const' declarations must be initialized
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:07:26.731] Browser ERROR   ./app/issues/new/page.tsx:18:10
+Parsing ecmascript source code failed
+  16 |
+  17 | const NewIssuePage = () => {
+> 18 | 	const {}useForm<IssueForm>();
+     | 	        ^^^^^^^
+  19 |   return (
+  20 | 	<div className='max-w-xl space-y-3'>
+  21 | 		<TextField.Root placeholder='Title' />
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:07:31.179] Server  LOG      ✓ Compiled in 53ms
+[00:07:45.486] Server  LOG      ✓ Compiled in 29ms
+[00:07:51.598] Server  LOG      ✓ Compiled in 32ms
+[00:07:51.695] Browser ERROR   uncaughtError: ReferenceError: ref is not defined
+[00:07:53.675] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:07:53.697] Server  LOG      ✓ Compiled in 26ms
+[00:07:53.948] Server  LOG     (name, options = {})=>{
+        let field = get(_fields, name);
+        const disabledIsDefined = isBoolean(options.disabled) || isBoolean(_options.disabled);
+        set(_fields, name, {
+            ...field || {},
+            _f: {
+                ...field && field._f ? field._f : {
+                    ref: {
+                        name
+                    }
+                },
+                name,
+                mount: true,
+                ...options
+            }
+        });
+        _names.mount.add(name);
+        if (field) {
+            _setDisabledField({
+                disabled: isBoolean(options.disabled) ? options.disabled : _options.disabled,
+                name
+            });
+        } else {
+            updateValidAndValue(name, true, options.value);
+        }
+        return {
+            ...disabledIsDefined ? {
+                disabled: options.disabled || _options.disabled
+            } : {},
+            ..._options.progressive ? {
+                required: !!options.required,
+                min: getRuleValue(options.min),
+                max: getRuleValue(options.max),
+                minLength: getRuleValue(options.minLength),
+                maxLength: getRuleValue(options.maxLength),
+                pattern: getRuleValue(options.pattern)
+            } : {},
+            name,
+            onChange,
+            onBlur: onChange,
+            ref: (ref)=>{
+                if (ref) {
+                    register(name, options);
+                    field = get(_fields, name);
+                    const fieldRef = isUndefined(ref.value) ? ref.querySelectorAll ? ref.querySelectorAll('input,select,textarea')[0] || ref : ref : ref;
+                    const radioOrCheckbox = isRadioOrCheckbox(fieldRef);
+                    const refs = field._f.refs || [];
+                    if (radioOrCheckbox ? refs.find((option)=>option === fieldRef) : fieldRef === field._f.ref) {
+                        return;
+                    }
+                    set(_fields, name, {
+                        _f: {
+                            ...field._f,
+                            ...radioOrCheckbox ? {
+                                refs: [
+                                    ...refs.filter(live),
+                                    fieldRef,
+                                    ...Array.isArray(get(_defaultValues, name)) ? [
+                                        {}
+                                    ] : []
+                                ],
+                                ref: {
+                                    type: fieldRef.type,
+                                    name
+                                }
+                            } : {
+                                ref: fieldRef
+                            }
+                        }
+                    });
+                    updateValidAndValue(name, false, undefined, fieldRef);
+                } else {
+                    field = get(_fields, name, {});
+                    if (field._f) {
+                        field._f.mount = false;
+                    }
+                    (_options.shouldUnregister || options.shouldUnregister) && !(isNameInFieldArray(_names.array, name) && _state.action) && _names.unMount.add(name);
+                }
+            }
+        };
+    }
+[00:07:54.123] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:54.284] Browser LOG     
+[00:07:54.284] Browser LOG     
+[00:07:54.285] Browser LOG     
+[00:07:54.285] Browser LOG     
+[00:07:57.823] Server  LOG      ✓ Compiled in 27ms
+[00:07:57.906] Browser LOG     {"name":"title"}
+[00:07:57.906] Browser LOG     {"name":"title"}
+[00:08:31.163] Server  LOG     {}
+[00:08:31.377] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:31.377] Browser LOG     {"name":"title"}
+[00:08:31.377] Browser LOG     {"name":"title"}
+[00:08:31.377] Browser LOG     {"name":"title"}
+[00:08:31.377] Browser LOG     {"name":"title"}
+[00:09:19.375] Server  LOG      ✓ Compiled in 52ms
+[00:09:19.494] Browser ERROR   ./app/issues/new/page.tsx:22:40
+Parsing ecmascript source code failed
+  20 |   return (
+  21 | 	<div className='max-w-xl space-y-3'>
+> 22 | 		<TextField.Root placeholder='Title' {}/>
+     | 		                                     ^
+  23 | 		<SimpleMdeReact placeholder="description" />
+  24 | 		<Button>Submit new issue</Button>
+  25 | 	</div>
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:09:22.914] Browser ERROR   ./app/issues/new/page.tsx:22:40
+Parsing ecmascript source code failed
+  20 |   return (
+  21 | 	<div className='max-w-xl space-y-3'>
+> 22 | 		<TextField.Root placeholder='Title' {register} />
+     | 		                                     ^^^^^^^^
+  23 | 		<SimpleMdeReact placeholder="description" />
+  24 | 		<Button>Submit new issue</Button>
+  25 | 	</div>
+
+Expected '</', got 'register'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:09:31.756] Browser ERROR   ./app/issues/new/page.tsx:22:40
+Parsing ecmascript source code failed
+  20 |   return (
+  21 | 	<div className='max-w-xl space-y-3'>
+> 22 | 		<TextField.Root placeholder='Title' {register('')} />
+     | 		                                     ^^^^^^^^
+  23 | 		<SimpleMdeReact placeholder="description" />
+  24 | 		<Button>Submit new issue</Button>
+  25 | 	</div>
+
+Expected '</', got 'register'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:09:35.007] Browser ERROR   ./app/issues/new/page.tsx:22:40
+Parsing ecmascript source code failed
+  20 |   return (
+  21 | 	<div className='max-w-xl space-y-3'>
+> 22 | 		<TextField.Root placeholder='Title' {register('title')} />
+     | 		                                     ^^^^^^^^
+  23 | 		<SimpleMdeReact placeholder="description" />
+  24 | 		<Button>Submit new issue</Button>
+  25 | 	</div>
+
+Expected '</', got 'register'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:09:44.945] Server  LOG      ✓ Compiled in 90ms
+[00:09:45.105] Browser LOG     {"name":"title"}
+[00:09:45.105] Browser LOG     {"name":"title"}
+[00:09:45.255] Browser LOG     {"name":"title"}
+[00:09:45.255] Browser LOG     {"name":"title"}
+[00:10:46.288] Server  LOG      ✓ Compiled in 42ms
+[00:10:46.383] Browser LOG     {"name":"title"}
+[00:10:46.383] Browser LOG     {"name":"title"}
+[00:10:48.258] Server  LOG      ✓ Compiled in 61ms
+[00:10:48.377] Browser ERROR   ./app/issues/new/page.tsx:24:3
+Parsing ecmascript source code failed
+  22 | 		<TextField.Root placeholder='Title' {...register('title')} />
+  23 | 		<Controller
+> 24 | 		<SimpleMdeReact placeholder="description" />
+     | 		^
+  25 | 		<Button>Submit new issue</Button>
+  26 | 	</div>
+  27 |   )
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:10:51.560] Server  LOG      ✓ Compiled in 46ms
+[00:10:51.719] Browser LOG     {"name":"title"}
+[00:10:51.719] Browser LOG     {"name":"title"}
+[00:10:51.719] Browser LOG     {"name":"title"}
+[00:10:51.719] Browser LOG     {"name":"title"}
+[00:10:51.719] Browser ERROR   uncaughtError: TypeError: can't access property "control", methods is null
+[00:10:54.701] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:10:54.706] Server  LOG      ✓ Compiled in 61ms
+[00:10:55.031] Server  LOG     {}
+[00:10:55.067] Server  ERROR    ⨯ TypeError: Cannot read properties of null (reading 'control')
+[00:10:55.335] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:55.508] Browser LOG     {"name":"title"}
+[00:10:55.508] Browser LOG     {"name":"title"}
+[00:10:55.508] Browser LOG     {"name":"title"}
+[00:10:55.508] Browser LOG     {"name":"title"}
+[00:10:55.508] Browser ERROR   uncaughtError: TypeError: can't access property "control", methods is null
+[00:11:04.060] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:11:04.088] Server  LOG      ✓ Compiled in 20ms
+[00:11:04.284] Server  LOG     {}
+[00:11:04.328] Server  ERROR    ⨯ TypeError: Cannot read properties of null (reading 'control')
+[00:11:04.501] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:04.640] Browser LOG     {"name":"title"}
+[00:11:04.640] Browser LOG     {"name":"title"}
+[00:11:04.640] Browser LOG     {"name":"title"}
+[00:11:04.640] Browser LOG     {"name":"title"}
+[00:11:04.640] Browser ERROR   uncaughtError: TypeError: can't access property "control", methods is null
+[00:11:06.924] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:11:06.945] Server  LOG      ✓ Compiled in 25ms
+[00:11:07.164] Server  LOG     {}
+[00:11:07.184] Server  ERROR    ⨯ TypeError: Cannot read properties of null (reading 'control')
+[00:11:07.414] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:07.547] Browser LOG     {"name":"title"}
+[00:11:07.547] Browser LOG     {"name":"title"}
+[00:11:07.547] Browser LOG     {"name":"title"}
+[00:11:07.547] Browser LOG     {"name":"title"}
+[00:11:07.547] Browser ERROR   uncaughtError: TypeError: can't access property "control", methods is null
+[00:11:10.098] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:11:10.117] Server  LOG      ✓ Compiled in 32ms
+[00:11:10.301] Server  LOG     {}
+[00:11:10.322] Server  ERROR    ⨯ TypeError: Cannot read properties of null (reading 'control')
+[00:11:10.531] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:10.662] Browser LOG     {"name":"title"}
+[00:11:10.662] Browser LOG     {"name":"title"}
+[00:11:10.662] Browser LOG     {"name":"title"}
+[00:11:10.662] Browser LOG     {"name":"title"}
+[00:11:10.662] Browser ERROR   uncaughtError: TypeError: can't access property "control", methods is null
+[00:11:20.768] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:11:20.792] Server  LOG      ✓ Compiled in 36ms
+[00:11:21.023] Server  LOG     {}
+[00:11:21.076] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'array')
+[00:11:21.298] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:21.454] Browser LOG     {"name":"title"}
+[00:11:21.454] Browser LOG     {"name":"title"}
+[00:11:21.454] Browser LOG     {"name":"title"}
+[00:11:21.454] Browser LOG     {"name":"title"}
+[00:11:21.454] Browser ERROR   uncaughtError: TypeError: can't access property "array", control._names is undefined
+[00:11:23.323] Server  LOG      ✓ Compiled in 46ms
+[00:11:23.437] Browser ERROR   ./app/issues/new/page.tsx:26:4
+Parsing ecmascript source code failed
+  24 | 			name="description"
+  25 | 			control={}
+> 26 | 		/>
+     | 		 ^
+  27 | 		<SimpleMdeReact placeholder="description" />
+  28 | 		<Button>Submit new issue</Button>
+  29 | 	</div>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:11:35.324] Browser ERROR   ./app/issues/new/page.tsx:26:4
+Parsing ecmascript source code failed
+  24 | 			name="description"
+  25 | 			control={}
+> 26 | 		/>
+     | 		 ^
+  27 | 		<SimpleMdeReact placeholder="description" />
+  28 | 		<Button>Submit new issue</Button>
+  29 | 	</div>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:11:37.317] Browser ERROR   ./app/issues/new/page.tsx:26:4
+Parsing ecmascript source code failed
+  24 | 			name="description"
+  25 | 			control={}
+> 26 | 		/>
+     | 		 ^
+  27 | 		<SimpleMdeReact placeholder="description" />
+  28 | 		<Button>Submit new issue</Button>
+  29 | 	</div>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:11:43.511] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:11:43.528] Server  LOG      ✓ Compiled in 41ms
+[00:11:43.784] Server  LOG     {}
+[00:11:43.807] Server  ERROR    ⨯ TypeError: props.render is not a function
+[00:11:44.044] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:44.197] Browser LOG     {"name":"title"}
+[00:11:44.197] Browser LOG     {"name":"title"}
+[00:11:44.197] Browser LOG     {"name":"title"}
+[00:11:44.197] Browser LOG     {"name":"title"}
+[00:11:44.197] Browser ERROR   uncaughtError: TypeError: props.render is not a function
+[00:11:50.471] Server  LOG      ✓ Compiled in 37ms
+[00:11:50.582] Browser ERROR   ./app/issues/new/page.tsx:27:4
+Parsing ecmascript source code failed
+  25 | 			control={control}
+  26 | 			render={}
+> 27 | 		/>
+     | 		 ^
+  28 | 		<SimpleMdeReact placeholder="description" />
+  29 | 		<Button>Submit new issue</Button>
+  30 | 	</div>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:11:53.783] Server  LOG      ✓ Compiled in 47ms
+[00:11:53.897] Browser ERROR   ./app/issues/new/page.tsx:26:14
+Parsing ecmascript source code failed
+  24 | 			name="description"
+  25 | 			control={control}
+> 26 | 			render={()}
+     | 			          ^
+  27 | 		/>
+  28 | 		<SimpleMdeReact placeholder="description" />
+  29 | 		<Button>Submit new issue</Button>
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:11:56.415] Browser ERROR   ./app/issues/new/page.tsx:26:18
+Parsing ecmascript source code failed
+  24 | 			name="description"
+  25 | 			control={control}
+> 26 | 			render={() => }
+     | 			              ^
+  27 | 		/>
+  28 | 		<SimpleMdeReact placeholder="description" />
+  29 | 		<Button>Submit new issue</Button>
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:12:00.304] Browser ERROR   ./app/issues/new/page.tsx:26:18
+Parsing ecmascript source code failed
+  24 | 			name="description"
+  25 | 			control={control}
+> 26 | 			render={() => }
+     | 			              ^
+  27 | 		/>
+  28 | 		<SimpleMdeReact≈ placeholder="description" />
+  29 | 		<Button>Submit new issue</Button>
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:12:02.027] Browser ERROR   ./app/issues/new/page.tsx:26:18
+Parsing ecmascript source code failed
+  24 | 			name="description"
+  25 | 			control={control}
+> 26 | 			render={() => }
+     | 			              ^
+  27 | 		/>
+  28 | 		<Button>Submit new issue</Button>
+  29 | 	</div>
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:12:03.245] Server  LOG      ✓ Compiled in 16ms
+[00:12:03.351] Browser ERROR   ./app/issues/new/page.tsx:26:3
+Parsing ecmascript source code failed
+  24 | 			name="description"
+  25 | 			control={control}
+> 26 | 		<SimpleMdeReact placeholder="description" />
+     | 		^
+  27 | 			render={() => }
+  28 | 		/>
+  29 | 		<Button>Submit new issue</Button>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:12:11.160] Browser ERROR   ./app/issues/new/page.tsx:26:18
+Parsing ecmascript source code failed
+  24 | 			name="description"
+  25 | 			control={control}
+> 26 | 			render={() => }
+     | 			              ^
+  27 | 		/>
+  28 | 		<Button>Submit new issue</Button>
+  29 | 	</div>
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:12:13.303] Browser ERROR   ./app/issues/new/page.tsx:26:18
+Parsing ecmascript source code failed
+  24 | 			name="description"
+  25 | 			control={control}
+> 26 | 			render={() => }
+     | 			              ^
+  27 | 		/>
+  28 | 		<SimpleMdeReact placeholder="description" />
+  29 | 		<Button>Submit new issue</Button>
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:12:22.054] Browser ERROR   ./app/issues/new/page.tsx:26:18
+Parsing ecmascript source code failed
+  24 | 			name="description"
+  25 | 			control={control}
+> 26 | 			render={() => }
+     | 			              ^
+  27 | 		/>
+  28 | 		
+  29 | 		<Button>Submit new issue</Button>
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:12:23.558] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:12:23.576] Server  LOG      ✓ Compiled in 26ms
+[00:12:23.821] Server  LOG     {}
+[00:12:24.088] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:24.088] Browser LOG     {"name":"title"}
+[00:12:24.088] Browser LOG     {"name":"title"}
+[00:12:24.088] Browser LOG     {"name":"title"}
+[00:12:24.088] Browser LOG     {"name":"title"}
+[00:12:25.988] Server  LOG      ✓ Compiled in 23ms
+[00:12:26.076] Browser LOG     {"name":"title"}
+[00:12:26.077] Browser LOG     {"name":"title"}
+[00:12:34.256] Server  LOG      ✓ Compiled in 26ms
+[00:12:34.347] Browser LOG     {"name":"title"}
+[00:12:34.347] Browser LOG     {"name":"title"}
+[00:12:42.427] Server  LOG      ✓ Compiled in 31ms
+[00:12:42.528] Browser LOG     {"name":"title"}
+[00:12:42.528] Browser LOG     {"name":"title"}
+[00:12:44.042] Server  LOG      ✓ Compiled in 10ms
+[00:12:44.130] Browser LOG     {"name":"title"}
+[00:12:44.130] Browser LOG     {"name":"title"}
+[00:12:45.165] Server  LOG      ✓ Compiled in 22ms
+[00:12:45.258] Browser LOG     {"name":"title"}
+[00:12:45.258] Browser LOG     {"name":"title"}
+[00:12:52.498] Server  LOG      ✓ Compiled in 34ms
+[00:12:52.619] Browser ERROR   ./app/issues/new/page.tsx:26:70
+Parsing ecmascript source code failed
+  24 | 			name="description"
+  25 | 			control={control}
+> 26 | 			render={({ field }) => <SimpleMdeReact placeholder="description" {}/>}
+     | 			                                                                  ^
+  27 | 		/>
+  28 | 		<Button>Submit new issue</Button>
+  29 | 	</div>
+
+Expected '</', got '}'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:12:55.639] Server  LOG      ✓ Compiled in 29ms
+[00:12:55.809] Browser LOG     {"name":"title"}
+[00:12:55.809] Browser LOG     {"name":"title"}
+[00:12:55.923] Browser LOG     {"name":"title"}
+[00:12:55.923] Browser LOG     {"name":"title"}
+[00:14:08.370] Server  LOG      ✓ Compiled in 37ms
+[00:14:08.456] Browser LOG     {"name":"title"}
+[00:14:08.456] Browser LOG     {"name":"title"}
+[00:14:35.570] Server  LOG      ✓ Compiled in 14ms
+[00:14:35.702] Browser LOG     {"name":"title"}
+[00:14:35.703] Browser LOG     {"name":"title"}
+[00:14:35.703] Browser ERROR   Unknown event handler property `%s`. It will be ignored. onS
+[00:14:37.739] Server  LOG      ✓ Compiled in 33ms
+[00:14:37.844] Browser ERROR   ./app/issues/new/page.tsx:21:51
+Parsing ecmascript source code failed
+  19 | 	console.log(register('title'));
+  20 |   return (
+> 21 | 	<form className='max-w-xl space-y-3' onSubmit={} >
+     | 	                                                 ^
+  22 | 		<TextField.Root placeholder='Title' {...register('title')} />
+  23 | 		<Controller 
+  24 | 			name="description"
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:14:43.058] Server  LOG      ✓ Compiled in 68ms
+[00:14:43.167] Browser ERROR   ./app/issues/new/page.tsx:5:1
+Export handleSubmit doesn't exist in target module
+  3 | import { Button, TextField } from	'@radix-ui/themes'
+  4 | import dynamic from 'next/dynamic'
+> 5 | import { useForm, Controller, handleSubmit } from 'react-hook-form'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+  8 | 	ssr: false,
+
+The export handleSubmit was not found in module [project]/node_modules/react-hook-form/dist/index.esm.mjs [app-client] (ecmascript).
+Did you mean to import Controller?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:14:43.167] Browser ERROR   ./app/issues/new/page.tsx:5:1
+Export handleSubmit doesn't exist in target module
+  3 | import { Button, TextField } from	'@radix-ui/themes'
+  4 | import dynamic from 'next/dynamic'
+> 5 | import { useForm, Controller, handleSubmit } from 'react-hook-form'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+  8 | 	ssr: false,
+
+The export handleSubmit was not found in module [project]/node_modules/react-hook-form/dist/index.esm.mjs [app-ssr] (ecmascript).
+Did you mean to import Controller?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:14:46.020] Server  LOG      ✓ Compiled in 24ms
+[00:14:46.136] Browser ERROR   ./app/issues/new/page.tsx:5:1
+Export handleSubmit doesn't exist in target module
+  3 | import { Button, TextField } from	'@radix-ui/themes'
+  4 | import dynamic from 'next/dynamic'
+> 5 | import { useForm, Controller, handleSubmit } from 'react-hook-form'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+  8 | 	ssr: false,
+
+The export handleSubmit was not found in module [project]/node_modules/react-hook-form/dist/index.esm.mjs [app-client] (ecmascript).
+Did you mean to import Controller?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:14:46.136] Browser ERROR   ./app/issues/new/page.tsx:5:1
+Export handleSubmit doesn't exist in target module
+  3 | import { Button, TextField } from	'@radix-ui/themes'
+  4 | import dynamic from 'next/dynamic'
+> 5 | import { useForm, Controller, handleSubmit } from 'react-hook-form'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+  8 | 	ssr: false,
+
+The export handleSubmit was not found in module [project]/node_modules/react-hook-form/dist/index.esm.mjs [app-ssr] (ecmascript).
+Did you mean to import Controller?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:14:51.134] Server  LOG      ✓ Compiled in 51ms
+[00:14:51.253] Browser ERROR   ./app/issues/new/page.tsx:21:62
+Parsing ecmascript source code failed
+  19 | 	console.log(register('title'));
+  20 |   return (
+> 21 | 	<form className='max-w-xl space-y-3' onSubmit={handleSubmit(())} >
+     | 	                                                            ^^
+  22 | 		<TextField.Root placeholder='Title' {...register('title')} />
+  23 | 		<Controller 
+  24 | 			name="description"
+
+Parenthesized expression cannot be empty
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:14:51.253] Browser ERROR   ./app/issues/new/page.tsx:5:1
+Export handleSubmit doesn't exist in target module
+  3 | import { Button, TextField } from	'@radix-ui/themes'
+  4 | import dynamic from 'next/dynamic'
+> 5 | import { useForm, Controller, handleSubmit } from 'react-hook-form'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+  8 | 	ssr: false,
+
+The export handleSubmit was not found in module [project]/node_modules/react-hook-form/dist/index.esm.mjs [app-client] (ecmascript).
+Did you mean to import Controller?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:14:51.253] Browser ERROR   ./app/issues/new/page.tsx:5:1
+Export handleSubmit doesn't exist in target module
+  3 | import { Button, TextField } from	'@radix-ui/themes'
+  4 | import dynamic from 'next/dynamic'
+> 5 | import { useForm, Controller, handleSubmit } from 'react-hook-form'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+  8 | 	ssr: false,
+
+The export handleSubmit was not found in module [project]/node_modules/react-hook-form/dist/index.esm.mjs [app-ssr] (ecmascript).
+Did you mean to import Controller?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:14:53.201] Browser ERROR   ./app/issues/new/page.tsx:21:62
+Parsing ecmascript source code failed
+  19 | 	console.log(register('title'));
+  20 |   return (
+> 21 | 	<form className='max-w-xl space-y-3' onSubmit={handleSubmit(() =)} >
+     | 	                                                            ^^
+  22 | 		<TextField.Root placeholder='Title' {...register('title')} />
+  23 | 		<Controller 
+  24 | 			name="description"
+
+Parenthesized expression cannot be empty
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:14:53.201] Browser ERROR   ./app/issues/new/page.tsx:5:1
+Export handleSubmit doesn't exist in target module
+  3 | import { Button, TextField } from	'@radix-ui/themes'
+  4 | import dynamic from 'next/dynamic'
+> 5 | import { useForm, Controller, handleSubmit } from 'react-hook-form'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+  8 | 	ssr: false,
+
+The export handleSubmit was not found in module [project]/node_modules/react-hook-form/dist/index.esm.mjs [app-client] (ecmascript).
+Did you mean to import Controller?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:14:53.201] Browser ERROR   ./app/issues/new/page.tsx:5:1
+Export handleSubmit doesn't exist in target module
+  3 | import { Button, TextField } from	'@radix-ui/themes'
+  4 | import dynamic from 'next/dynamic'
+> 5 | import { useForm, Controller, handleSubmit } from 'react-hook-form'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+  8 | 	ssr: false,
+
+The export handleSubmit was not found in module [project]/node_modules/react-hook-form/dist/index.esm.mjs [app-ssr] (ecmascript).
+Did you mean to import Controller?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:14:58.135] Server  LOG      ✓ Compiled in 36ms
+[00:14:58.245] Browser ERROR   ./app/issues/new/page.tsx:5:1
+Export handleSubmit doesn't exist in target module
+  3 | import { Button, TextField } from	'@radix-ui/themes'
+  4 | import dynamic from 'next/dynamic'
+> 5 | import { useForm, Controller, handleSubmit } from 'react-hook-form'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+  8 | 	ssr: false,
+
+The export handleSubmit was not found in module [project]/node_modules/react-hook-form/dist/index.esm.mjs [app-client] (ecmascript).
+Did you mean to import Controller?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:14:58.245] Browser ERROR   ./app/issues/new/page.tsx:5:1
+Export handleSubmit doesn't exist in target module
+  3 | import { Button, TextField } from	'@radix-ui/themes'
+  4 | import dynamic from 'next/dynamic'
+> 5 | import { useForm, Controller, handleSubmit } from 'react-hook-form'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+  8 | 	ssr: false,
+
+The export handleSubmit was not found in module [project]/node_modules/react-hook-form/dist/index.esm.mjs [app-ssr] (ecmascript).
+Did you mean to import Controller?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:15:04.573] Server  LOG      ✓ Compiled in 72ms
+[00:15:04.677] Browser ERROR   ./app/issues/new/page.tsx:5:1
+Export handleSubmit doesn't exist in target module
+  3 | import { Button, TextField } from	'@radix-ui/themes'
+  4 | import dynamic from 'next/dynamic'
+> 5 | import { useForm, Controller, handleSubmit } from 'react-hook-form'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+  8 | 	ssr: false,
+
+The export handleSubmit was not found in module [project]/node_modules/react-hook-form/dist/index.esm.mjs [app-client] (ecmascript).
+Did you mean to import Controller?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:15:04.677] Browser ERROR   ./app/issues/new/page.tsx:5:1
+Export handleSubmit doesn't exist in target module
+  3 | import { Button, TextField } from	'@radix-ui/themes'
+  4 | import dynamic from 'next/dynamic'
+> 5 | import { useForm, Controller, handleSubmit } from 'react-hook-form'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+  8 | 	ssr: false,
+
+The export handleSubmit was not found in module [project]/node_modules/react-hook-form/dist/index.esm.mjs [app-ssr] (ecmascript).
+Did you mean to import Controller?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:16:23.713] Browser ERROR   ./app/issues/new/page.tsx:5:1
+Export handleSubmit doesn't exist in target module
+  3 | import { Button, TextField } from	'@radix-ui/themes'
+  4 | import dynamic from 'next/dynamic'
+> 5 | import { useForm, Controller, handleSubmit } from 'react-hook-form'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+  8 | 	ssr: false,
+
+The export handleSubmit was not found in module [project]/node_modules/react-hook-form/dist/index.esm.mjs [app-client] (ecmascript).
+Did you mean to import Controller?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:16:23.713] Browser ERROR   ./app/issues/new/page.tsx:5:1
+Export handleSubmit doesn't exist in target module
+  3 | import { Button, TextField } from	'@radix-ui/themes'
+  4 | import dynamic from 'next/dynamic'
+> 5 | import { useForm, Controller, handleSubmit } from 'react-hook-form'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+  8 | 	ssr: false,
+
+The export handleSubmit was not found in module [project]/node_modules/react-hook-form/dist/index.esm.mjs [app-ssr] (ecmascript).
+Did you mean to import Controller?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:16:38.017] Server  ERROR    ⨯ ./app/issues/new/page.tsx:5:1
+Export handleSubmit doesn't exist in target module
+  3 | import { Button, TextField } from	'@radix-ui/themes'
+  4 | import dynamic from 'next/dynamic'
+> 5 | import { useForm, Controller, handleSubmit } from 'react-hook-form'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+  8 | 	ssr: false,
+
+The export handleSubmit was not found in module [project]/node_modules/react-hook-form/dist/index.esm.mjs [app-client] (ecmascript).
+Did you mean to import Controller?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+
+
+
+./app/issues/new/page.tsx:5:1
+Export handleSubmit doesn't exist in target module
+  3 | import { Button, TextField } from	'@radix-ui/themes'
+  4 | import dynamic from 'next/dynamic'
+> 5 | import { useForm, Controller, handleSubmit } from 'react-hook-form'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+  8 | 	ssr: false,
+
+The export handleSubmit was not found in module [project]/node_modules/react-hook-form/dist/index.esm.mjs [app-ssr] (ecmascript).
+Did you mean to import Controller?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+
+
+[00:16:38.825] Browser ERROR   uncaughtError: Error: ./app/issues/new/page.tsx:5:1
+Export handleSubmit doesn't exist in target module
+  3 | import { Button, TextField } from	'@radix-ui/themes'
+  4 | import dynamic from 'next/dynamic'
+> 5 | import { useForm, Controller, handleSubmit } from 'react-hook-form'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+  8 | 	ssr: false,
+
+The export handleSubmit was not found in module [project]/node_modules/react-hook-form/dist/index.esm.mjs [app-client] (ecmascript).
+Did you mean to import Controller?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+
+
+[00:16:38.981] Browser ERROR   ./app/issues/new/page.tsx:5:1
+Export handleSubmit doesn't exist in target module
+  3 | import { Button, TextField } from	'@radix-ui/themes'
+  4 | import dynamic from 'next/dynamic'
+> 5 | import { useForm, Controller, handleSubmit } from 'react-hook-form'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+  8 | 	ssr: false,
+
+The export handleSubmit was not found in module [project]/node_modules/react-hook-form/dist/index.esm.mjs [app-client] (ecmascript).
+Did you mean to import Controller?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:16:38.981] Browser ERROR   ./app/issues/new/page.tsx:5:1
+Export handleSubmit doesn't exist in target module
+  3 | import { Button, TextField } from	'@radix-ui/themes'
+  4 | import dynamic from 'next/dynamic'
+> 5 | import { useForm, Controller, handleSubmit } from 'react-hook-form'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+  8 | 	ssr: false,
+
+The export handleSubmit was not found in module [project]/node_modules/react-hook-form/dist/index.esm.mjs [app-ssr] (ecmascript).
+Did you mean to import Controller?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:16:38.981] Browser ERROR   ./app/issues/new/page.tsx:5:1
+Export handleSubmit doesn't exist in target module
+  3 | import { Button, TextField } from	'@radix-ui/themes'
+  4 | import dynamic from 'next/dynamic'
+> 5 | import { useForm, Controller, handleSubmit } from 'react-hook-form'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+  8 | 	ssr: false,
+
+The export handleSubmit was not found in module [project]/node_modules/react-hook-form/dist/index.esm.mjs [app-client] (ecmascript).
+Did you mean to import Controller?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:16:38.981] Browser ERROR   ./app/issues/new/page.tsx:5:1
+Export handleSubmit doesn't exist in target module
+  3 | import { Button, TextField } from	'@radix-ui/themes'
+  4 | import dynamic from 'next/dynamic'
+> 5 | import { useForm, Controller, handleSubmit } from 'react-hook-form'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+  8 | 	ssr: false,
+
+The export handleSubmit was not found in module [project]/node_modules/react-hook-form/dist/index.esm.mjs [app-ssr] (ecmascript).
+Did you mean to import Controller?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:17:23.266] Server  LOG      ✓ Compiled in 64ms
+[00:17:23.974] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:16.258] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:38.440] Browser LOG     {"description":"description of bug 1","title":"bug 1"}
+[00:22:39.292] Server  LOG      ✓ Compiled in 95ms
+[00:22:42.374] Server  LOG      ✓ Compiled in 49ms
+[00:22:42.490] Browser ERROR   ./app/issues/new/page.tsx:8:1
+Parsing ecmascript source code failed
+   6 | import	
+   7 |
+>  8 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+     | ^^^^^
+   9 | 	ssr: false,
+  10 | });
+  11 |
+
+Expected 'from', got 'const'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:22:44.966] Browser ERROR   ./app/issues/new/page.tsx:8:1
+Parsing ecmascript source code failed
+   6 | import	axios 
+   7 |
+>  8 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+     | ^^^^^
+   9 | 	ssr: false,
+  10 | });
+  11 |
+
+Expected ',', got 'const'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:23:03.389] Server  LOG      ✓ Compiled in 40ms
+[00:23:03.498] Browser ERROR   ./app/issues/new/page.tsx:22:2
+Parsing ecmascript source code failed
+  20 | 	const onSubmit = handleSubmit((data) => {
+  21 | 		axios.
+> 22 | 	});
+     | 	^
+  23 |   return (
+  24 | 	<form className='max-w-xl space-y-3' onSubmit={onSubmit}>
+  25 | 		<TextField.Root placeholder='Title' {...register('title')} />
+
+Expected ident
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:23:06.105] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:07.286] Server  LOG      ✓ Compiled in 26ms
+[00:23:10.315] Server  LOG      ✓ Compiled in 23ms
+[00:23:16.012] Server  LOG      ✓ Compiled in 25ms
+[00:23:18.781] Server  LOG      ✓ Compiled in 14ms
+[00:23:23.021] Server  LOG      ✓ Compiled in 35ms
+[00:23:33.785] Server  LOG      ✓ Compiled in 30ms
+[00:23:33.899] Browser ERROR   ./app/issues/new/page.tsx:21:3
+Parsing ecmascript source code failed
+  19 | 	const { register, control, handleSubmit } = useForm<IssueForm>();
+  20 | 	const onSubmit = handleSubmit((data) => {
+> 21 | 		await axios.post('/api/issues', data);
+     | 		^^^^^
+  22 | 	});
+  23 |   return (
+  24 | 	<form className='max-w-xl space-y-3' onSubmit={onSubmit}>
+
+await isn't allowed in non-async function
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:23:49.644] Server  LOG      ✓ Compiled in 45ms
+[00:24:07.459] Server  LOG      ✓ Compiled in 23ms
+[00:24:11.403] Server  LOG      ✓ Compiled in 39ms
+[00:24:11.516] Browser ERROR   ./app/issues/new/page.tsx:19:6
+Parsing ecmascript source code failed
+  17 |
+  18 | const NewIssuePage = () => {
+> 19 | 	use Router
+     | 	    ^^^^^^
+  20 | 	const { register, control, handleSubmit } = useForm<IssueForm>();
+  21 | 	const onSubmit = handleSubmit(async (data) => {
+  22 | 		await axios.post('/api/issues', data);
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:24:13.457] Browser ERROR   ./app/issues/new/page.tsx:20:6
+Parsing ecmascript source code failed
+  18 |
+  19 | const NewIssuePage = () => {
+> 20 | 	use Router
+     | 	    ^^^^^^
+  21 | 	const { register, control, handleSubmit } = useForm<IssueForm>();
+  22 | 	const onSubmit = handleSubmit(async (data) => {
+  23 | 		await axios.post('/api/issues', data);
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:24:19.504] Server  LOG      ✓ Compiled in 214ms
+[00:24:20.315] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:40.432] Server  LOG      ✓ Compiled in 105ms
+[00:24:40.953] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:54.099] Server  LOG      ✓ Compiled in 25ms
+[00:25:01.684] Server  LOG      ✓ Compiled in 32ms
+[00:25:01.799] Browser ERROR   ./app/issues/new/page.tsx:25:2
+Parsing ecmascript source code failed
+  23 | 		await axios.post('/api/issues', data);
+  24 | 		router.
+> 25 | 	});
+     | 	^
+  26 |   return (
+  27 | 	<form className='max-w-xl space-y-3' onSubmit={onSubmit}>
+  28 | 		<TextField.Root placeholder='Title' {...register('title')} />
+
+Expected ident
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:25:08.412] Server  LOG      ✓ Compiled in 14ms
+[00:25:16.189] Server  LOG      ✓ Compiled in 25ms
+[00:25:35.086] Server  LOG      ✓ Compiled in 16ms
+[00:26:14.525] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
