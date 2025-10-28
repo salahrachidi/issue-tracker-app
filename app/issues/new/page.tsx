@@ -1,6 +1,6 @@
 //!Building a form needs user interaction so it must not be render on the server
 'use client';
-import { Button, Callout, TextField, Text } from	'@radix-ui/themes'
+import { Button, Callout, TextField, Text, Spinner } from	'@radix-ui/themes'
 import dynamic from 'next/dynamic'
 import { useForm, Controller } from 'react-hook-form'
 import	axios from 'axios';
@@ -18,15 +18,18 @@ type IssueForm = z.infer<typeof createIssueSchema>;
 
 const NewIssuePage = () => {
 	const[error, setError] = useState('');
+	const [isSubmitting, setSubmitting] = useState(false);
 	const router = useRouter();
 	const { register, control, handleSubmit, formState: {errors} } = useForm<IssueForm>({
 		resolver: zodResolver(createIssueSchema)
-	});
+	}); 
 	const onSubmit = handleSubmit(async (data) => {
 		try {
+			setSubmitting(true);
 			await axios.post('/api/issues', data);
 			router.push('/issues');
 		} catch (error) {
+			setSubmitting(false);
 			setError('An unexpected error occurred.');
 		}
 	});	
@@ -44,7 +47,7 @@ const NewIssuePage = () => {
 				render={({ field }) => <SimpleMdeReact placeholder="description" {...field}/>}
 			/>
 			<ErrorMessage>{errors.description?.message}</ErrorMessage>
-			<Button type="submit">Submit new issue</Button>
+			<Button disabled={isSubmitting} >Submit new issue { isSubmitting && <Spinner/>}</Button>
 		</form>
 	</div>
   )

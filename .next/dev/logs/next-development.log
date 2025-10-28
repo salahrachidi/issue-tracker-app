@@ -3102,3 +3102,205 @@ Import traces:
 [02:14:13.773] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [02:14:13.773] Browser ERROR   unhandledRejection: Error: Failed to load chunk /_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_c8c997ce._.js from module [turbopack]/browser/dev/hmr-client/hmr-client.ts [app-client] (ecmascript, async loader)
 [02:14:29.280] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:16:43.222] Server  LOG      ✓ Compiled in 146ms
+[02:20:03.252] Server  LOG      ✓ Compiled in 115ms
+[02:20:13.953] Server  LOG      ✓ Compiled in 62ms
+[02:20:22.602] Server  LOG      ✓ Compiled in 62ms
+[02:20:30.531] Server  LOG      ✓ Compiled in 66ms
+[02:20:33.721] Server  LOG      ✓ Compiled in 42ms
+[02:20:37.818] Server  LOG      ✓ Compiled in 61ms
+[02:20:40.812] Server  LOG      ✓ Compiled in 53ms
+[02:20:45.830] Server  LOG      ✓ Compiled in 53ms
+[02:20:49.821] Server  LOG      ✓ Compiled in 55ms
+[02:21:51.639] Server  LOG      ✓ Compiled in 156ms
+[02:21:52.452] Browser ERROR   ./app/issues/new/page.tsx:47:47
+Parsing ecmascript source code failed
+  45 | 			/>
+  46 | 			<ErrorMessage>{errors.description?.message}</ErrorMessage>
+> 47 | 			<Button type="submit">Submit new issue <Spi</Button>
+     | 			                                           ^
+  48 | 		</form>
+  49 | 	</div>
+  50 |   )
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[02:21:52.452] Browser ERROR   ./app/issues/new/page.tsx:47:48
+Parsing ecmascript source code failed
+  45 | 			/>
+  46 | 			<ErrorMessage>{errors.description?.message}</ErrorMessage>
+> 47 | 			<Button type="submit">Submit new issue <Spi</Button>
+     | 			                                            ^^^^^^^^
+  48 | 		</form>
+  49 | 	</div>
+  50 |   )
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[02:21:56.139] Browser ERROR   ./app/issues/new/page.tsx:47:51
+Parsing ecmascript source code failed
+  45 | 			/>
+  46 | 			<ErrorMessage>{errors.description?.message}</ErrorMessage>
+> 47 | 			<Button type="submit">Submit new issue <Spinner</Button>
+     | 			                                               ^
+  48 | 		</form>
+  49 | 	</div>
+  50 |   )
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[02:21:56.139] Browser ERROR   ./app/issues/new/page.tsx:47:52
+Parsing ecmascript source code failed
+  45 | 			/>
+  46 | 			<ErrorMessage>{errors.description?.message}</ErrorMessage>
+> 47 | 			<Button type="submit">Submit new issue <Spinner</Button>
+     | 			                                                ^^^^^^^^
+  48 | 		</form>
+  49 | 	</div>
+  50 |   )
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[02:21:56.652] Server  LOG      ✓ Compiled in 175ms
+[02:22:01.248] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:22:12.507] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:23:36.854] Server  LOG      ✓ Compiled in 25ms
+[02:23:36.975] Browser ERROR   uncaughtError: ReferenceError: use is not defined
+[02:23:38.744] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:23:38.755] Server  LOG      ✓ Compiled in 23ms
+[02:23:39.610] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:23:40.849] Server  LOG      ✓ Compiled in 27ms
+[02:23:45.867] Server  LOG      ✓ Compiled in 35ms
+[02:27:06.681] Server  LOG      ✓ Compiled in 50ms
+[02:27:06.791] Browser ERROR   ./app/issues/new/page.tsx:21:2
+Parsing ecmascript source code failed
+  19 | const NewIssuePage = () => {
+  20 | 	const[error, setError] = useState('');
+> 21 | 	= useState(false);
+     | 	^
+  22 | 	const router = useRouter();
+  23 | 	const { register, control, handleSubmit, formState: {errors} } = useForm<IssueForm>({
+  24 | 		resolver: zodResolver(createIssueSchema)
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[02:27:10.845] Server  LOG      ✓ Compiled in 57ms
+[02:27:12.705] Server  LOG      ✓ Compiled in 36ms
+[02:27:17.641] Server  LOG      ✓ Compiled in 42ms
+[02:27:25.299] Server  LOG      ✓ Compiled in 31ms
+[02:27:26.992] Server  LOG      ✓ Compiled in 26ms
+[02:27:38.430] Server  LOG      ✓ Compiled in 74ms
+[02:28:01.727] Server  LOG      ✓ Compiled in 54ms
+[02:28:01.837] Browser ERROR   ./app/issues/new/page.tsx:30:5
+Parsing ecmascript source code failed
+  28 | 			await axios.post('/api/issues', data);
+  29 | 			router.push('/issues');
+> 30 | 		} catch (error) {
+     | 		  ^^^^^
+  31 | 			setError('An unexpected error occurred.');
+  32 | 		}
+  33 | 	});	
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[02:28:01.837] Browser ERROR   ./app/issues/new/page.tsx:28:4
+Parsing ecmascript source code failed
+  26 | 	const onSubmit =
+  27 | 	
+> 28 | 			await axios.post('/api/issues', data);
+     | 			^^^^^
+  29 | 			router.push('/issues');
+  30 | 		} catch (error) {
+  31 | 			setError('An unexpected error occurred.');
+
+await isn't allowed in non-async function
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[02:28:05.408] Server  LOG      ✓ Compiled in 65ms
+[02:28:06.525] Server  LOG      ✓ Compiled in 30ms
+[02:28:13.557] Server  LOG      ✓ Compiled in 39ms
+[02:28:20.706] Server  LOG      ✓ Compiled in 31ms
+[02:28:24.220] Server  LOG      ✓ Compiled in 39ms
+[02:28:26.458] Server  LOG      ✓ Compiled in 58ms
+[02:28:42.204] Server  LOG      ✓ Compiled in 25ms
+[02:28:45.402] Server  LOG      ✓ Compiled in 44ms
+[02:28:45.512] Browser ERROR   ./app/issues/new/page.tsx:50:66
+Parsing ecmascript source code failed
+  48 | 			/>
+  49 | 			<ErrorMessage>{errors.description?.message}</ErrorMessage>
+> 50 | 			<Button type="submit">Submit new issue { isSubmitting<Spinner/>}</Button>
+     | 			                                                              ^
+  51 | 		</form>
+  52 | 	</div>
+  53 |   )
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[02:28:47.780] Server  LOG      ✓ Compiled in 80ms
+[02:29:09.806] Server  LOG      ✓ Compiled in 33ms
+[02:29:18.726] Server  LOG      ✓ Compiled in 30ms
+[02:29:21.891] Server  LOG      ✓ Compiled in 27ms
+[02:29:26.209] Server  LOG      ✓ Compiled in 38ms
