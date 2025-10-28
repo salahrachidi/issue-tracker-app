@@ -1511,3 +1511,701 @@ Import traces:
 [00:25:16.189] Server  LOG      ✓ Compiled in 25ms
 [00:25:35.086] Server  LOG      ✓ Compiled in 16ms
 [00:26:14.525] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:58:33.454] Server  LOG      ✓ Compiled in 203ms
+[00:58:35.332] Server  LOG      ✓ Compiled in 53ms
+[00:58:36.285] Browser ERROR   ./app/issues/new/page.tsx:24:3
+Parsing ecmascript source code failed
+  22 | 	const onSubmit = handleSubmit(async (data) => {
+  23 | 		try
+> 24 | 		await axios.post('/api/issues', data);
+     | 		^^^^^
+  25 | 		router.push('/issues');
+  26 | 	});
+  27 |   return (
+
+Expected '{', got 'await'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[00:58:39.689] Server  LOG      ✓ Compiled in 41ms
+[00:58:46.269] Server  LOG      ✓ Compiled in 112ms
+[00:58:47.313] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:58:47.640] Server  LOG      ✓ Compiled in 105ms
+[00:58:49.309] Browser WARN    Unexpected import of module [project]/node_modules/react-simplemde-editor/dist/SimpleMdeReact.mjs [app-client] (ecmascript, next/dynamic entry) from module [project]/app/issues/new/page.tsx [app-client] (ecmascript), which was deleted by an HMR update
+[00:58:54.689] Server  LOG      ✓ Compiled in 32ms
+[00:59:07.800] Server  LOG      ✓ Compiled in 42ms
+[00:59:08.929] Server  LOG      ✓ Compiled in 57ms
+[00:59:13.794] Server  LOG      ✓ Compiled in 50ms
+[00:59:15.690] Server  LOG      ✓ Compiled in 39ms
+[00:59:28.474] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:59:44.122] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:59:59.809] Browser LOG     {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"data":"{\"title\":\"\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/api/issues","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 400","name":"AxiosError","stack":"settle@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:7767:16\nonloadend@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:8282:174\nEventHandlerNonNull*dispatchXhrRequest@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:8294:13\n__TURBOPACK__default__export__<@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:8249:12\ndispatchRequest@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:8912:12\n_request@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:9204:189\nrequest@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:9082:31\nhttpMethod@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:9243:25\nwrap@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:4300:19\nNewIssuePage/onSubmit<@http://localhost:3000/_next/static/chunks/app_issues_new_page_tsx_17097125._.js:41:167\ncreateFormControl/handleSubmit/<@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:3489:27\nasync*executeDispatch@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10239:21\nrunWithFiberInDEV@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:959:131\nprocessDispatchQueue@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10265:41\ndispatchEventForPluginEventSystem/<@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10540:33\nbatchedUpdates$1@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:2247:46\ndispatchEventForPluginEventSystem@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10341:25\ndispatchEvent@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:12855:70\ndispatchDiscreteEvent@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:12837:64\nEventListener.handleEvent*addTrappedEventListener@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10313:30\nlistenToNativeEvent@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10282:32\nlistenToAllSupportedEvents/<@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10288:96\nlistenToAllSupportedEvents@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10287:29\nexports.hydrateRoot@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:16414:35\nhydrate/<@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:12811:29\nstartTransition@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:1279:31\nhydrate@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:12810:24\nasync*@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:12848:16\nappBootstrap/<@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:177:16\nloadScriptsInSequence@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:141:16\nappBootstrap@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:170:26\n@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:12845:32\ninstantiateModule/<@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:855:26\nrunModuleExecutionHooks@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:880:26\ninstantiateModule@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:853:32\ngetOrInstantiateRuntimeModule@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:784:12\nregisterChunk@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:1602:50\nasync*registerChunk@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:1540:20\n@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:1829:18\n@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:1833:3\n","status":400}
+[01:01:56.259] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:01:57.916] Browser LOG     {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"data":"{\"title\":\"\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/api/issues","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 400","name":"AxiosError","stack":"settle@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:7767:16\nonloadend@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:8282:174\nEventHandlerNonNull*dispatchXhrRequest@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:8294:13\n__TURBOPACK__default__export__<@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:8249:12\ndispatchRequest@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:8912:12\n_request@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:9204:189\nrequest@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:9082:31\nhttpMethod@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:9243:25\nwrap@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:4300:19\nNewIssuePage/onSubmit<@http://localhost:3000/_next/static/chunks/app_issues_new_page_tsx_17097125._.js:41:167\ncreateFormControl/handleSubmit/<@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:3489:27\nasync*executeDispatch@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10239:21\nrunWithFiberInDEV@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:959:131\nprocessDispatchQueue@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10265:41\ndispatchEventForPluginEventSystem/<@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10540:33\nbatchedUpdates$1@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:2247:46\ndispatchEventForPluginEventSystem@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10341:25\ndispatchEvent@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:12855:70\ndispatchDiscreteEvent@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:12837:64\nEventListener.handleEvent*addTrappedEventListener@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10313:30\nlistenToNativeEvent@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10282:32\nlistenToAllSupportedEvents/<@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10288:96\nlistenToAllSupportedEvents@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10287:29\nexports.hydrateRoot@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:16414:35\nhydrate/<@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:12811:29\nstartTransition@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:1279:31\nhydrate@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:12810:24\nasync*@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:12848:16\nappBootstrap/<@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:177:16\nloadScriptsInSequence@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:141:16\nappBootstrap@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:170:26\n@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:12845:32\ninstantiateModule/<@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:855:26\nrunModuleExecutionHooks@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:880:26\ninstantiateModule@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:853:32\ngetOrInstantiateRuntimeModule@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:784:12\nregisterChunk@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:1602:50\nasync*registerChunk@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:1540:20\n@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:1829:18\n@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:1833:3\n","status":400}
+[01:04:23.939] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:04:33.152] Browser LOG     {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"data":"{\"title\":\"\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/api/issues","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 400","name":"AxiosError","stack":"settle@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:7767:16\nonloadend@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:8282:174\nEventHandlerNonNull*dispatchXhrRequest@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:8294:13\n__TURBOPACK__default__export__<@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:8249:12\ndispatchRequest@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:8912:12\n_request@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:9204:189\nrequest@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:9082:31\nhttpMethod@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:9243:25\nwrap@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:4300:19\nNewIssuePage/onSubmit<@http://localhost:3000/_next/static/chunks/app_issues_new_page_tsx_17097125._.js:41:167\ncreateFormControl/handleSubmit/<@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:3489:27\nasync*executeDispatch@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10239:21\nrunWithFiberInDEV@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:959:131\nprocessDispatchQueue@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10265:41\ndispatchEventForPluginEventSystem/<@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10540:33\nbatchedUpdates$1@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:2247:46\ndispatchEventForPluginEventSystem@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10341:25\ndispatchEvent@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:12855:70\ndispatchDiscreteEvent@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:12837:64\n","status":400}
+[01:06:53.177] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:06:53.833] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:06:57.763] Browser LOG     {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"data":"{\"title\":\"\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/api/issues","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 400","name":"AxiosError","stack":"settle@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:7767:16\nonloadend@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:8282:174\nEventHandlerNonNull*dispatchXhrRequest@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:8294:13\n__TURBOPACK__default__export__<@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:8249:12\ndispatchRequest@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:8912:12\n_request@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:9204:189\nrequest@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:9082:31\nhttpMethod@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:9243:25\nwrap@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:4300:19\nNewIssuePage/onSubmit<@http://localhost:3000/_next/static/chunks/app_issues_new_page_tsx_17097125._.js:41:167\ncreateFormControl/handleSubmit/<@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:3489:27\nasync*executeDispatch@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10239:21\nrunWithFiberInDEV@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:959:131\nprocessDispatchQueue@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10265:41\ndispatchEventForPluginEventSystem/<@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10540:33\nbatchedUpdates$1@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:2247:46\ndispatchEventForPluginEventSystem@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10341:25\ndispatchEvent@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:12855:70\ndispatchDiscreteEvent@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:12837:64\nEventListener.handleEvent*addTrappedEventListener@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10313:30\nlistenToNativeEvent@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10282:32\nlistenToAllSupportedEvents/<@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10288:96\nlistenToAllSupportedEvents@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10287:29\nexports.hydrateRoot@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:16414:35\nhydrate/<@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:12811:29\nstartTransition@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:1279:31\nhydrate@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:12810:24\nasync*@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:12848:16\nappBootstrap/<@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:177:16\nloadScriptsInSequence@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:141:16\nappBootstrap@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:170:26\n@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:12845:32\ninstantiateModule/<@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:855:26\nrunModuleExecutionHooks@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:880:26\ninstantiateModule@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:853:32\ngetOrInstantiateRuntimeModule@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:784:12\nregisterChunk@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:1602:50\nasync*registerChunk@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:1540:20\n@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:1829:18\n@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:1833:3\n","status":400}
+[01:07:50.650] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:07:51.476] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:07:53.361] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:07:56.330] Browser LOG     {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"data":"{\"title\":\"\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/api/issues","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 400","name":"AxiosError","stack":"settle@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:7767:16\nonloadend@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:8282:174\nEventHandlerNonNull*dispatchXhrRequest@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:8294:13\n__TURBOPACK__default__export__<@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:8249:12\ndispatchRequest@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:8912:12\n_request@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:9204:189\nrequest@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:9082:31\nhttpMethod@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:9243:25\nwrap@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:4300:19\nNewIssuePage/onSubmit<@http://localhost:3000/_next/static/chunks/app_issues_new_page_tsx_17097125._.js:41:167\ncreateFormControl/handleSubmit/<@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:3489:27\nasync*executeDispatch@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10239:21\nrunWithFiberInDEV@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:959:131\nprocessDispatchQueue@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10265:41\ndispatchEventForPluginEventSystem/<@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10540:33\nbatchedUpdates$1@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:2247:46\ndispatchEventForPluginEventSystem@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10341:25\ndispatchEvent@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:12855:70\ndispatchDiscreteEvent@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:12837:64\nEventListener.handleEvent*addTrappedEventListener@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10313:30\nlistenToNativeEvent@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10282:32\nlistenToAllSupportedEvents/<@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10288:96\nlistenToAllSupportedEvents@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10287:29\nexports.hydrateRoot@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:16414:35\nhydrate/<@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:12811:29\nstartTransition@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:1279:31\nhydrate@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:12810:24\nasync*@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:12848:16\nappBootstrap/<@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:177:16\nloadScriptsInSequence@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:141:16\nappBootstrap@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:170:26\n@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:12845:32\ninstantiateModule/<@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:855:26\nrunModuleExecutionHooks@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:880:26\ninstantiateModule@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:853:32\ngetOrInstantiateRuntimeModule@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:784:12\nregisterChunk@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:1602:50\nasync*registerChunk@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:1540:20\n@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:1829:18\n@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:1833:3\n","status":400}
+[01:21:21.009] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:21:23.759] Server  ERROR   TypeError: Value is not JSON serializable
+[01:21:23.873] Browser LOG     {"code":"ERR_BAD_RESPONSE","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"data":"{\"title\":\"\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/api/issues","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 500","name":"AxiosError","stack":"settle@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:7767:16\nonloadend@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:8282:174\nEventHandlerNonNull*dispatchXhrRequest@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:8294:13\n__TURBOPACK__default__export__<@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:8249:12\ndispatchRequest@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:8912:12\n_request@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:9204:189\nrequest@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:9082:31\nhttpMethod@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:9243:25\nwrap@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:4300:19\nNewIssuePage/onSubmit<@http://localhost:3000/_next/static/chunks/app_issues_new_page_tsx_17097125._.js:41:167\ncreateFormControl/handleSubmit/<@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:3489:27\nasync*executeDispatch@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10239:21\nrunWithFiberInDEV@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:959:131\nprocessDispatchQueue@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10265:41\ndispatchEventForPluginEventSystem/<@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10540:33\nbatchedUpdates$1@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:2247:46\ndispatchEventForPluginEventSystem@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10341:25\ndispatchEvent@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:12855:70\ndispatchDiscreteEvent@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:12837:64\nEventListener.handleEvent*addTrappedEventListener@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10313:30\nlistenToNativeEvent@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10282:32\nlistenToAllSupportedEvents/<@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10288:96\nlistenToAllSupportedEvents@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10287:29\nexports.hydrateRoot@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:16414:35\nhydrate/<@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:12811:29\nstartTransition@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:1279:31\nhydrate@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:12810:24\nasync*@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:12848:16\nappBootstrap/<@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:177:16\nloadScriptsInSequence@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:141:16\nappBootstrap@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:170:26\n@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:12845:32\ninstantiateModule/<@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:855:26\nrunModuleExecutionHooks@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:880:26\ninstantiateModule@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:853:32\ngetOrInstantiateRuntimeModule@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:784:12\nregisterChunk@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:1602:50\nasync*registerChunk@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:1540:20\n@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:1829:18\n@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:1833:3\n","status":500}
+[01:21:57.405] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:21:58.142] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:21:59.889] Browser LOG     {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"data":"{\"title\":\"\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/api/issues","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 400","name":"AxiosError","stack":"settle@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:7767:16\nonloadend@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:8282:174\nEventHandlerNonNull*dispatchXhrRequest@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:8294:13\n__TURBOPACK__default__export__<@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:8249:12\ndispatchRequest@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:8912:12\n_request@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:9204:189\nrequest@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:9082:31\nhttpMethod@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:9243:25\nwrap@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:4300:19\nNewIssuePage/onSubmit<@http://localhost:3000/_next/static/chunks/app_issues_new_page_tsx_17097125._.js:41:167\ncreateFormControl/handleSubmit/<@http://localhost:3000/_next/static/chunks/node_modules_2bd3168d._.js:3489:27\nasync*executeDispatch@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10239:21\nrunWithFiberInDEV@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:959:131\nprocessDispatchQueue@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10265:41\ndispatchEventForPluginEventSystem/<@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10540:33\nbatchedUpdates$1@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:2247:46\ndispatchEventForPluginEventSystem@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10341:25\ndispatchEvent@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:12855:70\ndispatchDiscreteEvent@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:12837:64\nEventListener.handleEvent*addTrappedEventListener@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10313:30\nlistenToNativeEvent@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10282:32\nlistenToAllSupportedEvents/<@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10288:96\nlistenToAllSupportedEvents@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:10287:29\nexports.hydrateRoot@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:16414:35\nhydrate/<@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:12811:29\nstartTransition@http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js:1279:31\nhydrate@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:12810:24\nasync*@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:12848:16\nappBootstrap/<@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:177:16\nloadScriptsInSequence@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:141:16\nappBootstrap@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:170:26\n@http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_a38d7d69._.js:12845:32\ninstantiateModule/<@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:855:26\nrunModuleExecutionHooks@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:880:26\ninstantiateModule@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:853:32\ngetOrInstantiateRuntimeModule@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:784:12\nregisterChunk@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:1602:50\nasync*registerChunk@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:1540:20\n@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:1829:18\n@http://localhost:3000/_next/static/chunks/turbopack-_86f4650b._.js:1833:3\n","status":400}
+[01:24:11.895] Server  LOG      ✓ Compiled in 102ms
+[01:24:16.254] Server  LOG      ✓ Compiled in 190ms
+[01:24:16.685] Server  ERROR   Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:24:17.028] Server  ERROR    ⨯ TypeError: Cannot read properties of null (reading 'useState')
+[01:24:17.437] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:24:17.650] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:24:19.341] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:24:19.342] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:24:19.342] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:24:19.361] Server  LOG      ✓ Compiled in 41ms
+[01:24:19.679] Server  ERROR   Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:24:19.843] Server  ERROR    ⨯ TypeError: Cannot read properties of null (reading 'useState')
+[01:24:20.137] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:24:20.359] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:24:22.488] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:24:22.489] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:24:22.490] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:24:22.504] Server  LOG      ✓ Compiled in 31ms
+[01:24:22.872] Server  ERROR   Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:24:23.036] Server  ERROR    ⨯ TypeError: Cannot read properties of null (reading 'useState')
+[01:24:23.390] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:24:23.619] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:24:30.166] Server  LOG      ✓ Compiled in 54ms
+[01:24:30.273] Browser ERROR   ./app/issues/new/page.tsx:9:15
+Parsing ecmascript source code failed
+   7 | import { useRouter } from 'next/navigation';
+   8 | import { useState } from 'react';
+>  9 | const[useState('');
+     |               ^
+  10 |
+  11 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+  12 | 	ssr: false,
+
+Expected ',', got '('
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[01:24:31.810] Browser ERROR   ./app/issues/new/page.tsx:9:6
+Parsing ecmascript source code failed
+   7 | import { useRouter } from 'next/navigation';
+   8 | import { useState } from 'react';
+>  9 | const[]useState('');
+     |      ^^
+  10 |
+  11 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+  12 | 	ssr: false,
+
+'const' declarations must be initialized
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[01:24:31.810] Browser ERROR   ./app/issues/new/page.tsx:9:8
+Parsing ecmascript source code failed
+   7 | import { useRouter } from 'next/navigation';
+   8 | import { useState } from 'react';
+>  9 | const[]useState('');
+     |        ^^^^^^^^
+  10 |
+  11 | const SimpleMdeReact = dynamic(() => import('react-simplemde-editor'), {
+  12 | 	ssr: false,
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[01:24:34.026] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:24:34.026] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:24:34.026] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:24:34.048] Server  LOG      ✓ Compiled in 39ms
+[01:24:34.322] Server  ERROR   Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:24:34.543] Server  ERROR    ⨯ TypeError: Cannot read properties of null (reading 'useState')
+[01:24:34.792] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:24:34.934] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:24:36.853] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:24:36.853] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:24:36.855] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:24:36.876] Server  LOG      ✓ Compiled in 26ms
+[01:24:37.088] Server  ERROR   Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:24:37.286] Server  ERROR    ⨯ TypeError: Cannot read properties of null (reading 'useState')
+[01:24:37.526] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:24:37.829] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:24:40.382] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:24:40.382] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:24:40.383] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:24:40.397] Server  LOG      ✓ Compiled in 29ms
+[01:24:40.659] Server  ERROR   Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:24:40.835] Server  ERROR    ⨯ TypeError: Cannot read properties of null (reading 'useState')
+[01:24:41.332] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:24:41.513] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:24:53.293] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:24:53.293] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:24:53.293] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:24:53.307] Server  LOG      ✓ Compiled in 42ms
+[01:24:53.522] Server  ERROR   Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:24:53.770] Server  ERROR    ⨯ TypeError: Cannot read properties of null (reading 'useState')
+[01:24:54.022] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:24:54.189] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:24:54.953] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:24:54.953] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:24:54.953] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:24:54.976] Server  LOG      ✓ Compiled in 31ms
+[01:24:55.177] Server  ERROR   Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:24:55.340] Server  ERROR    ⨯ TypeError: Cannot read properties of null (reading 'useState')
+[01:24:55.693] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:24:55.890] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:24:56.569] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:24:56.570] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:24:56.570] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:24:56.593] Server  LOG      ✓ Compiled in 27ms
+[01:24:56.786] Server  ERROR   Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:24:56.991] Server  ERROR    ⨯ TypeError: Cannot read properties of null (reading 'useState')
+[01:24:57.259] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:24:57.509] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:25:05.650] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:25:05.650] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:25:05.650] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:25:05.668] Server  LOG      ✓ Compiled in 35ms
+[01:25:05.909] Server  ERROR   Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:25:06.085] Server  ERROR    ⨯ TypeError: Cannot read properties of null (reading 'useState')
+[01:25:06.380] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:25:06.523] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:25:07.844] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:25:07.844] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:25:07.845] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:25:07.865] Server  LOG      ✓ Compiled in 78ms
+[01:25:08.149] Server  ERROR   Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:25:08.355] Server  ERROR    ⨯ TypeError: Cannot read properties of null (reading 'useState')
+[01:25:08.615] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:25:08.789] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:25:10.853] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:25:10.853] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:25:10.854] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:25:10.874] Server  LOG      ✓ Compiled in 21ms
+[01:25:11.112] Server  ERROR   Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:25:11.259] Server  ERROR    ⨯ TypeError: Cannot read properties of null (reading 'useState')
+[01:25:11.475] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:25:11.606] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:25:17.673] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:27:10.230] Browser ERROR   ./app/issues/new/page.tsx:36:8
+Parsing ecmascript source code failed
+  34 | 		
+  35 | 	</div>
+> 36 | 	<form className='max-w-xl space-y-3' onSubmit={onSubmit}>
+     | 	      ^^^^^^^^^
+  37 | 		<TextField.Root placeholder='Title' {...register('title')} />
+  38 | 		<Controller 
+  39 | 			name="description"
+
+Expected ',', got 'className'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[01:27:20.916] Browser ERROR   ./app/issues/new/page.tsx:34:8
+Parsing ecmascript source code failed
+  32 |   return (
+  33 | 	<div></div>
+> 34 | 	<form className='max-w-xl space-y-3' onSubmit={onSubmit}>
+     | 	      ^^^^^^^^^
+  35 | 		<TextField.Root placeholder='Title' {...register('title')} />
+  36 | 		<Controller 
+  37 | 			name="description"
+
+Expected ',', got 'className'
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[01:27:23.146] Server  LOG      ✓ Compiled in 37ms
+[01:28:09.580] Browser ERROR   ./app/issues/new/page.tsx:34:24
+Parsing ecmascript source code failed
+  32 |   return (
+  33 | 	<div>
+> 34 | 		{error <Callout.Root></Callout.Root>}
+     | 		                     ^
+  35 | 		<form className='max-w-xl space-y-3' onSubmit={onSubmit}>
+  36 | 			<TextField.Root placeholder='Title' {...register('title')} />
+  37 | 			<Controller
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[01:28:09.580] Browser ERROR   ./app/issues/new/page.tsx:34:25
+Parsing ecmascript source code failed
+  32 |   return (
+  33 | 	<div>
+> 34 | 		{error <Callout.Root></Callout.Root>}
+     | 		                      ^^^^^^^^^^^^^^^
+  35 | 		<form className='max-w-xl space-y-3' onSubmit={onSubmit}>
+  36 | 			<TextField.Root placeholder='Title' {...register('title')} />
+  37 | 			<Controller
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[01:28:13.673] Browser ERROR   ./app/issues/new/page.tsx:34:24
+Parsing ecmascript source code failed
+  32 |   return (
+  33 | 	<div>
+> 34 | 		{error <Callout.Root></Callout.Root>}
+     | 		                     ^
+  35 | 		<form className='max-w-xl space-y-3' onSubmit={onSubmit}>
+  36 | 			<TextField.Root placeholder='Title' {...register('title')} />
+  37 | 			<Controller
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[01:28:13.673] Browser ERROR   ./app/issues/new/page.tsx:34:25
+Parsing ecmascript source code failed
+  32 |   return (
+  33 | 	<div>
+> 34 | 		{error <Callout.Root></Callout.Root>}
+     | 		                      ^^^^^^^^^^^^^^^
+  35 | 		<form className='max-w-xl space-y-3' onSubmit={onSubmit}>
+  36 | 			<TextField.Root placeholder='Title' {...register('title')} />
+  37 | 			<Controller
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[01:28:19.483] Server  LOG      ✓ Compiled in 34ms
+[01:28:23.786] Browser ERROR   ./app/issues/new/page.tsx:34:24
+Parsing ecmascript source code failed
+  32 |   return (
+  33 | 	<div>
+> 34 | 		{error <Callout.Root></Callout.Root>}
+     | 		                     ^
+  35 | 		<form className='max-w-xl space-y-3' onSubmit={onSubmit}>
+  36 | 			<TextField.Root placeholder='Title' {...register('title')} />
+  37 | 			<Controller
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[01:28:23.786] Browser ERROR   ./app/issues/new/page.tsx:34:25
+Parsing ecmascript source code failed
+  32 |   return (
+  33 | 	<div>
+> 34 | 		{error <Callout.Root></Callout.Root>}
+     | 		                      ^^^^^^^^^^^^^^^
+  35 | 		<form className='max-w-xl space-y-3' onSubmit={onSubmit}>
+  36 | 			<TextField.Root placeholder='Title' {...register('title')} />
+  37 | 			<Controller
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[01:29:09.028] Browser ERROR   ./app/issues/new/page.tsx:34:24
+Parsing ecmascript source code failed
+  32 |   return (
+  33 | 	<div>
+> 34 | 		{error <Callout.Root></Callout.Root>}
+     | 		                     ^
+  35 | 		<form className='max-w-xl space-y-3' onSubmit={onSubmit}>
+  36 | 			<TextField.Root placeholder='Title' {...register('title')} />
+  37 | 			<Controller
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[01:29:09.028] Browser ERROR   ./app/issues/new/page.tsx:34:25
+Parsing ecmascript source code failed
+  32 |   return (
+  33 | 	<div>
+> 34 | 		{error <Callout.Root></Callout.Root>}
+     | 		                      ^^^^^^^^^^^^^^^
+  35 | 		<form className='max-w-xl space-y-3' onSubmit={onSubmit}>
+  36 | 			<TextField.Root placeholder='Title' {...register('title')} />
+  37 | 			<Controller
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[01:29:32.704] Browser ERROR   ./app/issues/new/page.tsx:34:24
+Parsing ecmascript source code failed
+  32 |   return (
+  33 | 	<div>
+> 34 | 		{error <Callout.Root></Callout.Root>}
+     | 		                     ^
+  35 | 		<form className='max-w-xl space-y-3' onSubmit={onSubmit}>
+  36 | 			<TextField.Root placeholder='Title' {...register('title')} />
+  37 | 			<Controller
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[01:29:32.704] Browser ERROR   ./app/issues/new/page.tsx:34:25
+Parsing ecmascript source code failed
+  32 |   return (
+  33 | 	<div>
+> 34 | 		{error <Callout.Root></Callout.Root>}
+     | 		                      ^^^^^^^^^^^^^^^
+  35 | 		<form className='max-w-xl space-y-3' onSubmit={onSubmit}>
+  36 | 			<TextField.Root placeholder='Title' {...register('title')} />
+  37 | 			<Controller
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[01:29:41.189] Server  LOG      ✓ Compiled in 42ms
+[01:30:15.817] Browser ERROR   ./app/issues/new/page.tsx:36:4
+Parsing ecmascript source code failed
+  34 | 		{error && <Callout.Root>
+  35 | 			<Ca
+> 36 | 			</Callout.Root>}
+     | 			^
+  37 | 		<form className='max-w-xl space-y-3' onSubmit={onSubmit}>
+  38 | 			<TextField.Root placeholder='Title' {...register('title')} />
+  39 | 			<Controller
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[01:30:15.817] Browser ERROR   ./app/issues/new/page.tsx:36:5
+Parsing ecmascript source code failed
+  34 | 		{error && <Callout.Root>
+  35 | 			<Ca
+> 36 | 			</Callout.Root>}
+     | 			 ^^^^^^^^^^^^^^^
+  37 | 		<form className='max-w-xl space-y-3' onSubmit={onSubmit}>
+  38 | 			<TextField.Root placeholder='Title' {...register('title')} />
+  39 | 			<Controller
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[01:30:18.977] Browser ERROR   ./app/issues/new/page.tsx:36:4
+Parsing ecmascript source code failed
+  34 | 		{error && <Callout.Root>
+  35 | 			<Callout.
+> 36 | 			</Callout.Root>}
+     | 			^
+  37 | 		<form className='max-w-xl space-y-3' onSubmit={onSubmit}>
+  38 | 			<TextField.Root placeholder='Title' {...register('title')} />
+  39 | 			<Controller
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[01:30:18.977] Browser ERROR   ./app/issues/new/page.tsx:36:5
+Parsing ecmascript source code failed
+  34 | 		{error && <Callout.Root>
+  35 | 			<Callout.
+> 36 | 			</Callout.Root>}
+     | 			 ^^^^^^^^^^^^^^^
+  37 | 		<form className='max-w-xl space-y-3' onSubmit={onSubmit}>
+  38 | 			<TextField.Root placeholder='Title' {...register('title')} />
+  39 | 			<Controller
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[01:30:21.446] Browser ERROR   ./app/issues/new/page.tsx:36:4
+Parsing ecmascript source code failed
+  34 | 		{error && <Callout.Root>
+  35 | 			<Callout.Text
+> 36 | 			</Callout.Root>}
+     | 			^
+  37 | 		<form className='max-w-xl space-y-3' onSubmit={onSubmit}>
+  38 | 			<TextField.Root placeholder='Title' {...register('title')} />
+  39 | 			<Controller
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[01:30:21.447] Browser ERROR   ./app/issues/new/page.tsx:36:5
+Parsing ecmascript source code failed
+  34 | 		{error && <Callout.Root>
+  35 | 			<Callout.Text
+> 36 | 			</Callout.Root>}
+     | 			 ^^^^^^^^^^^^^^^
+  37 | 		<form className='max-w-xl space-y-3' onSubmit={onSubmit}>
+  38 | 			<TextField.Root placeholder='Title' {...register('title')} />
+  39 | 			<Controller
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/issues/new/page.tsx [Client Component Browser]
+    ./app/issues/new/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/issues/new/page.tsx [Client Component SSR]
+    ./app/issues/new/page.tsx [Server Component]
+[01:30:29.870] Server  LOG      ✓ Compiled in 38ms
+[01:30:59.617] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:31:00.933] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:31:39.405] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:31:39.405] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/issues/new/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:31:39.406] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:31:39.426] Server  LOG      ✓ Compiled in 73ms
+[01:31:39.749] Server  ERROR    ⨯ ReferenceError: error is not defined
+[01:31:40.006] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:31:40.229] Browser ERROR   uncaughtError: ReferenceError: error is not defined
+[01:31:46.848] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:31:46.863] Server  LOG      ✓ Compiled in 57ms
+[01:31:47.478] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:31:48.007] Server  LOG      ✓ Compiled in 23ms
+[01:32:21.036] Server  LOG      ✓ Compiled in 37ms
+[01:32:24.142] Server  LOG      ✓ Compiled in 32ms
+[01:32:24.227] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true c c true c
+[01:32:26.949] Server  LOG      ✓ Compiled in 38ms
+[01:32:29.410] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:32:29.695] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:32:36.893] Server  LOG      ✓ Compiled in 32ms
+[01:32:36.984] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? class className
+[01:32:38.063] Server  LOG      ✓ Compiled in 16ms
+[01:32:41.271] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:32:43.918] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
