@@ -80,20 +80,22 @@ pnpm dev
 ## 🗂️ Project Structure (excerpt)
 
 ```
-issue-tracker/
-├─ prisma/
-│  ├─ schema.prisma       # Models & relations
-│  └─ seed.ts             # Optional seeding
-├─ src/
-│  ├─ app/                # Next.js (App Router)
-│  ├─ components/         # UI components (Radix + Tailwind)
-│  ├─ lib/                # Helpers (zod, prisma client, utils)
-│  ├─ server/             # Server actions / API handlers
-│  └─ types/              # Zod schemas & types
-├─ public/                # Static assets
-├─ .env.example           # Example env vars
-├─ package.json
-└─ README.md
+issue-tracker-app/
+    ├── .next/
+    ├── app/
+    ├── prisma/
+    ├── public/
+    ├── .env
+    ├── .gitignore
+    ├── next-env.d.ts
+    ├── next.config.js
+    ├── package-lock.json
+    ├── package.json
+    ├── postcss.config.js
+    ├── prisma.config.ts
+    ├── README.md
+    ├── tailwind.config.ts
+    └── tsconfig.json
 ```
 
 ---
