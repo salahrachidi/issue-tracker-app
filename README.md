@@ -260,4 +260,4 @@ PRs welcome! Please open an issue to discuss major changes first.
 
 ## 🛡️ License
 
-MIT © **@salahrachidi**
+MIT © **Salaheddine Rachidi** — [@salahrachidi](https://github.com/salahrachidi)
